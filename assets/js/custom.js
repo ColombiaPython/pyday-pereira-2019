@@ -3,7 +3,7 @@
   * Version: 1.0  
   * Template Scripts
   * Author: MarkUps
-  * Author URI:   https://www.markups.io/
+  * Author URI:  https://www.markups.io/
 
   Custom JS
   
