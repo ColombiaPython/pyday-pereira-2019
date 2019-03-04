@@ -1351,6 +1351,10 @@ button:focus {
   transition: all 0.5s;
 }
 
+.mu-communities{
+  padding-left: 280px;
+}
+
 
 
 /*--------------------*/
