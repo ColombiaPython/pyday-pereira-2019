@@ -493,9 +493,9 @@
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
                 </div>
 
-                <div id="feedback"></div>
-  
+                
                 <div class="mu-register-content">
+                  <div id="feedback"></div>
                   <form class="mu-register-form" id="contact-form">
   
                     <div class="row">
@@ -1063,8 +1063,8 @@
           // Get data
           var data = {
             'entry.1849763087': $('#name').val(),
-            'entry.557771612': $('#telephone').val(),
-            'entry.1063522904': $('#email').val(),
+            'entry.557771612': $('#email').val(),
+            'entry.1063522904': $('#telephone').val(),
             'entry.1986942934': $('#ticket').val()
           };
 
@@ -1083,14 +1083,14 @@
               url: 'https://docs.google.com/forms/d/e/1FAIpQLScbeGWK_VRu1BKF0HbtyFtBZPizxr84sPnFYYrIEsQjn5j4Zg/formResponse',
               type: 'POST',
               crossDomain: true,
-              dataType: "xml",
+              dataType: "jsonp",
               data: data,
-              success: function (jqXHR, textStatus, errorThrown) {
-                console.log('Enter on success');
+              success: function (response) {
+                console.log(response);
                 $('#feedback').html('<label class="text-success">Message sent!</label>');
               },
-              error: function (jqXHR, textStatus, errorThrown) {
-                console.log('Enter on error');
+              error: function (error) {
+                console.log(error);
                 $('#feedback').html('<label class="text-success">Message sent!</label>');
               }
             });
