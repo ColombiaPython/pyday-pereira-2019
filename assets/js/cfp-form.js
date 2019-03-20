@@ -44,7 +44,7 @@ $('#contact-form').submit(function (event) {
         url: 'https://docs.google.com/forms/d/e/1FAIpQLSebX4GN4x0nAHAWPijd9Q7JxLloJ8kbR7_W58-ZlNGtmD-J4g/formResponse',
         type: 'POST',
         crossDomain: true,
-        dataType: "jsonp",
+        dataType: "xml",
         data: data,
         success: function (response) {
           console.log(response);
