@@ -18,13 +18,14 @@
     <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
 
     <!-- Main Style -->
+    <link href="assets/css/morphing-modal.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 
     <!-- Fonts -->
 
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-  
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -33,7 +34,7 @@
     <![endif]-->
   </head>
   <body>
-    
+
     <!-- Start Header -->
   <header id="mu-hero" class="" role="banner">
     <!-- Start menu  -->
@@ -43,24 +44,24 @@
           <div class="navbar-header">
             <!-- Logo -->
             <a class="navbar-collapse" href="#mu-hero">
-                <img src="assets/images/pp.jpeg" alt="speaker img" width="60" height="60">
+              <img src="assets/images/pp.jpeg" alt="speaker img" width="60" height="60">
             </a>
 
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav mu-menu navbar-right">
-                <li><a href="#mu-about">Evento</a></li>
-                <li><a href="#mu-speakers">Speakers</a></li>
-                <li><a href="#mu-schedule">Agenda</a></li>
-                <li><a href="#mu-venue">Lugar</a></li>
-                <li><a href="#mu-register">Registro</a></li>
-                <li><a href="#mu-sponsors">Sponsors</a></li>            
-                <li><a href="#mu-pricing">Planes</a></li>
-                <li><a href="#mu-faq">FAQ</a></li>    
-                <li><a href="#mu-contact">Colaboradores</a></li>
-              </ul>
+            <ul class="nav navbar-nav mu-menu navbar-right">
+              <li><a href="#mu-about">Evento</a></li>
+              <li><a href="#mu-speakers">Speakers</a></li>
+              <li><a href="#mu-schedule">Agenda</a></li>
+              <li><a href="#mu-venue">Lugar</a></li>
+              <li><a href="#mu-register">Registro</a></li>
+              <li><a href="#mu-sponsors">Sponsors</a></li>
+              <li><a href="#mu-pricing">Planes</a></li>
+              <li><a href="#mu-faq">FAQ</a></li>
+              <li><a href="#mu-contact">Colaboradores</a></li>
+            </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
@@ -80,9 +81,9 @@
                 <a class="mu-logo" href="#"><img src="assets/images/logo.jpg" alt="logo img"></a>
               </div>
               <!-- End center Logo -->
-            
+
               <div class="mu-hero-featured-content">
-            
+
                 <h1>PYDAY PEREIRA 2019</h1>
                 <h2>Un día de Python, Data Science, Machine Learning, Infraestructura y más!</h2>
                 <p class="mu-event-date-line">Junio, 2019. Pereira, Risaralda, Colombia</p>
@@ -95,7 +96,7 @@
               <div class="mu-hero-featured-content">
                 <div class="mu-event-counter-area">
                   <div id="mu-event-counter">
-                    
+
                   </div>
                 </div>
                 <button type="submit" class="mu-reg-submit-btn">SUBMIT</button>
@@ -108,7 +109,7 @@
     </div>
   </header>
   <!-- End Header -->
-  
+
   <!-- Start main content -->
   <main role="main">
     <!-- Start About -->
@@ -134,7 +135,7 @@
 
                   <div class="mu-about-right">
                     <h2>Otros Eventos</h2>
-                    <ul class="mu-other-events"> 
+                    <ul class="mu-other-events">
                       <li><a href="https://www.calidev.co/eventos/pyday/">Pyday Cali 2018</a></li>
                       <li><a href="https://www.es.python.org/pyday-tenerife-2017.html">PyDay Tenerife 2017</a></li>
                       <li><a href="https://pybcn.org/pyday-bcn-2016/pyday/">Pyday Barcelona 2016</i></a></li>
@@ -321,7 +322,7 @@
                 <ul class="nav nav-tabs mu-schedule-menu" role="tablist">
                     <li role="presentation" class="active"><a href="#first-day" aria-controls="first-day" role="tab" data-toggle="tab">8:00 am - 11:45 am</a></li>
                     <li role="presentation"><a href="#second-day" aria-controls="second-day" role="tab" data-toggle="tab">1:45 pm - 6:00 pm</a></li>
-                    
+
                 </ul>
 
                 <!-- Tab panes -->
@@ -446,9 +447,9 @@
                           </div>
                         </li>
                       </ul>
-                    </div>                  
+                    </div>
                 </div>
-              </div>              
+              </div>
             </div>
           </div>
         </div>
@@ -487,58 +488,353 @@
           <div class="row">
             <div class="col-md-12">
               <div class="mu-register-area">
-  
+
                 <div class="mu-title-area">
                   <h2 class="mu-title">Formulario de Registro</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
                 </div>
 
-                
-                <div class="mu-register-content">
+
+                <!-- <div class="mu-register-content">
                   <div id="feedback"></div>
                   <form class="mu-register-form" id="contact-form">
-  
+
                     <div class="row">
                       <div class="col-md-6">
-                        <div class="form-group">                
+                        <div class="form-group">
                           <input type="text" class="form-control" placeholder="Your Full Name" id="name" name="name" required="">
                         </div>
                       </div>
-  
+
                       <div class="col-md-6">
-                        <div class="form-group">                
+                        <div class="form-group">
                           <input type="email" class="form-control" placeholder="Enter Your Email" id="email" name="email" required="">
-                        </div>     
+                        </div>
                       </div>
                     </div>
-  
+
                     <div class="row">
                       <div class="col-md-6">
-                        <div class="form-group">                
+                        <div class="form-group">
                           <input type="text" class="form-control" placeholder="Your Phone Number" id="telephone" name="telephone" required="">
                         </div>
                       </div>
                       <div class="col-md-6">
-                        
-                      <div class="form-group"> 
+
+                      <div class="form-group">
                         <select class="form-control" name="ticket" id="ticket">
                           <option value="0">Basic ($12)</option>
                           <option value="1">Standard ($22)</option>
                           <option value="2">Premium ($45)</option>
                         </select>
-                      </div>      
+                      </div>
                       </div>
                     </div>
-  
+
                     <button type="submit" class="mu-reg-submit-btn">SUBMIT</button>
-  
+
                         </form>
-                </div>
+                </div> -->
+                <section class="cd-section">
+
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ipsum repudiandae sequi ut optio reiciendis consectetur, cum, a provident, iusto quod esse, perferendis iure iste! Quidem itaque, exercitationem aliquam, mollitia recusandae repellat dolores quibusdam minima quae reprehenderit ut, reiciendis officia.
+                  </p>
+
+                  <div class="cd-modal-action">
+                    <a href="#0" class="btn" data-type="modal-trigger">QUIERO SER SPEAKER</a>
+                    <span class="cd-modal-bg"></span>
+                  </div> <!-- cd-modal-action -->
+
+                  <div class="cd-modal">
+                    <div class="cd-modal-content text-center">
+                      <img src="assets/images/pp.jpeg" alt="speaker img" width="60" height="60">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat, temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora? Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero! Eius, dignissimos esse eligendi veniam.
+                      </p>
+
+                      <h2>¿Qué temas buscamos en las charlas?</h2>
+
+                      <p>Estamos interesados en los siguientes temas:</p>
+
+                      <ul>
+                        <li>Desarrollo Web</li>
+                        <li>Data Science</li>
+                        <li>Machine Learning</li>
+                        <li>Deep Learning</li>
+                        <li>Frameworks de Python (Django, Flask, Tornado, Pyramid, etc)</li>
+                        <li>Blockchain y criptomonedas en Python</li>
+                        <li>Despliegue e Infraestructura</li>
+                        <li>Escalabilidad y Desempeño</li>
+                        <li>Internet de las Cosas (IoT)</li>
+                        <li>Micro-Python</li>
+                      </ul>
+
+                      <p>Por supuesto no solo los temas técnicos son importantes para nuestro evento, también son bienvenidos temas relacionados con:</p>
+
+                      <ul>
+                        <li>Comunidades de programación</li>
+                        <li>Inclusión y Diversidad</li>
+                        <li>Integración entre académia e industria</li>
+                        <li>Educación y habilidades blandas</li>
+                        <li>Calidad de vida de personas en STEM (Ciencia, Tecnología, Ingeniería y Matemáticas)</li>
+                        <li>Historias de casos de éxito y lecciones aprendidas</li>
+                      </ul>
+
+                      <p>Y no te preocupes, si crees que tu charla no corresponde a ninguno de los temas propuestos, ten presente que estos son solo para darte una idea de lo qué estamos buscando, si tienes algo diferente, relacionado y que consideras valioso, déjanos conocer tu propuesta, tal vez descubramos nuevos temas para hacer del evento algo aun mejor.</p>
+
+                      <h2>¿Por qué debes dictar una charla en PyDay Cali?</h2>
+
+                      <ul>
+                        <li>Obtendrás una camiseta gratis del evento :D</li>
+                        <li>Tendrás un video de tu charla producido profesionalmente y compartido en nuestro canal de YouTube (Ver sección <strong>Videos de Charlas</strong>)</li>
+                        <li>Serás pionero en un evento novedoso para la comunidad de Python en Colombia</li>
+                        <li>Podrás compartir tu presentación con más de 200 participantes</li>
+                        <li>Si planeas participar de <a href="https://pycon.co">PyCon Colombia 2019</a> dictando una charla, este es el espacio adecuado para que practiques tu presentación!</li>
+                      </ul>
+
+                      <h2>¿Cuánto dura cada charla?</h2>
+
+                      <p>El tiempo por charlas es de <strong>45 minutos incluyendo preguntas</strong>, esperamos que respetes este tiempo y planees tu charla de acuerdo a esto</p>
+
+                      <h2>¿Cómo proponer una charla?</h2>
+
+                      <p>Llena el formulario de PaperCall de acuerdo a las siguientes recomendaciones:</p>
+
+                      <ul>
+                        <li>
+                      <strong>Title:</strong> Escribe un título breve, específico y atractivo para tu charla</li>
+                        <li>
+                      <strong>Elevator Pitch:</strong> Tienes 300 caracteres para convencernos de seleccionar tu charla, este resumen debe expresar brevemente cosas como, sobre qué tratará tu charla, qué aprenderán los asistentes, etc. Hazlo emocionante, recuerda que este será el resumen que utilizaremos en la web para promocionar tu charla.</li>
+                        <li>
+                      <strong>Audience Level:</strong> ¿Qué nivel esperas que tengan los participantes de tu charla? Las categorías son las siguientes:
+                          <ul>
+                            <li>
+                      <em>All</em> (No requiere experiencia en la programación)</li>
+                            <li>
+                      <em>Beginner</em> (No requiere experiencia en Python)</li>
+                            <li>
+                      <em>Intermediate</em> (Requiere experiencia en Python)</li>
+                            <li>
+                      <em>Advanced</em> (Requiere experiencia avanzada en Python y programación)</li>
+                          </ul>
+                        </li>
+                        <li>
+                      <strong>Description:</strong> Danos más detalles sobre tu charla, ¿Qué planeas cubrir?, ¿Por qué es importante tu charla para el evento?, ¿Qué requerimientos técnicos tiene tu charla? También debes incluir una tabla de contenidos para tu charla con tiempos estimados por sección, así nos demuestras que tu charla respetará los tiempos acordados (<strong>45 minutos</strong>)</li>
+                        <li>
+                      <strong>Notes:</strong> En esta sección puedes responder preguntas adicionales como: ¿Por qué eres la persona adecuada para dar esta charla? ¿Has dado esta charla anteriormente?</li>
+                        <li>
+                      <strong>Tags:</strong> Asegurate de incluir tags personalizados para ayudarnos a agrupar las charlas por temas</li>
+                      </ul>
+
+                      <p>Otro campo que es muy importante para nosotros es la <strong>Biografía</strong>. En esta esperamos que incluyas información como: ¿Quién eres? ¿Cuál es tu experiencia en Python y en programación? ¿Perteneces a alguna comunidad de programación del país? ¿Lideras alguna comunidad de programación del país? ¿Has dado charlas en eventos anteriormente? y cualquier otra información sobre tu perfil que consideres interesante que sepamos antes de calificar tu charla.</p>
+
+                      <h2>¿Cuántas propuestas puedes enviar?</h2>
+
+                      <p>Puedes enviar la cantidad de propuestas que desees, sin embargo, solo puedes presentar una de ellas, en el caso de que más de una de tus charlas sea aceptada, escogeremos la que más se adapte a nuestra alineación de charlas.</p>
+
+                      <h2>¿Cuando sabré si mi charla fue aceptada?</h2>
+
+                      <p>Confirmaremos a todos los proponentes sobre la aceptación, rechazo o “en lista de espera” el <strong>12 de Octubre de 2018</strong> mediante correo electrónico, asi que para agilizar las cosas, esperamos que estés bien atento a tu correo en esa fecha.</p>
+
+                      <h2>Videos de Charlas</h2>
+
+                      <p>Dado que no todos pueden asistir a PyDay Cali, hemos decidido grabar los videos de las charlas y subirlos a nuestro canal de YouTube, al enviar tu propuesta aceptas y nos das permiso para poder conservar copias, compartir a través de nuestros diferentes canales las grabaciones, videos sin editar y editados, fotografías capturas de pantalla y cualquier otro registro en imagen, video o audio esta tarea. Ten en cuenta que deshabilitaremos por defecto los comentarios en los videos. Si tienes algún problema con esto, expresalo en la sección de información adicional y lo resolveremos.</p>
+
+                      <p>Es importante también que tus diapositivas y material extra de la charla estén bajo una licencia libre, así podremos utilizarlas en nuestros videos, sitio web y redes sociales.</p>
+
+                      <h2>Código de Conducta</h2>
+
+                      <p>Esperamos que en la propuesta, en la charla y durante el evento, cumplas con nuestro código de conducta, asegurate de leerlo, entenderlo y aplicarlo visitando el enlace <a href="https://www.calidev.co/codigo-de-conducta/">https://www.calidev.co/codigo-de-conducta/</a>.</p>
+
+                      <div class="">
+                        <div id="feedback"></div>
+                        <form class="" id="contact-form">
+
+                          <div class="row">
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>Título <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="Título" id="title" name="title" required="">
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>Elevator Pitch <span>*</span></label>
+                                <textarea class="form-control" placeholder="Elevator pitch" id="elevatorPitch" name="elevatorPitch" required=""></textarea>
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>Nivel de audiencia <span>*</span></label>
+                                <select class="form-control" name="audience" id="audience">
+                                  <option value="Principiante">Principiante</option>
+                                  <option value="Intermedio">Intermedio</option>
+                                  <option value="Avanzado">Avanzado</option>
+                                </select>
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>Descripción de la charla <span>*</span></label>
+                                <textarea class="form-control" placeholder="Descripción de la charla" id="description" name="description" required=""></textarea>
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>Requerimientos especiales <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="Descripción de la charla" id="requirements" name="requirements" required="">
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>Palabras clave <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="Descripción de la charla" id="keywords" name="keywords" required="">
+                              </div>
+                            </div>
+
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                <label>Nombres <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="Nombres" id="firstname" name="firstname" required="">
+                              </div>
+                            </div>
+
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                <label>Apellidos <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="Apellidos" id="lastname" name="lastname" required="">
+                              </div>
+                            </div>
+
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                <label>Tipo de identificación <span>*</span></label>
+                                <select class="form-control" name="identificationType" id="identificationType">
+                                  <option value="Tarjeta de identidad">Tarjeta de identidad</option>
+                                  <option value="Cédula de ciudadanía">Cédula de ciudadanía</option>
+                                </select>
+                              </div>
+                            </div>
+
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                <label>Identificación <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="Identificación" id="identification" name="identification" required="">
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>Fecha de nacimiento <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="DD/MM/AAAA" id="birthdate" name="birthdate" required="">
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>Link a URL de una foto tuya <span>*</span></label>
+                                <input type="url" class="form-control" placeholder="Link a URL de una foto tuya" id="photo" name="photo" required="" pattern="https://.*">
+                              </div>
+                            </div>
+
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                <label>Ciudad origen <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="Ciudad origen" id="city" name="city" required="">
+                              </div>
+                            </div>
+
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                <label>¿Requieres alguna comida especial? <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="Eres vegano, vegetariano, alergias" id="specialFood" name="specialFood" required="">
+                              </div>
+                            </div>
+
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                <label>¿Qué cargo ejerces?</label>
+                                <input type="text" class="form-control" placeholder="(Opcional para estudiantes)" id="rol" name="rol">
+                              </div>
+                            </div>
+
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                <label>¿Cuál es tu correo electrónico? <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="¿Cuál es tu correo electrónico?" id="email" name="email" required="">
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>¿Cuál es tu número de celular? <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="(Un número que utilices para que en caso de emergencia podamos contactarte)" id="cellphone" name="cellphone" required="">
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>¿Cuál es la url de tu perfil en GitHub/ GitLab/ Bitbucket/ Otro? <span>*</span></label>
+                                <input type="url" class="form-control" placeholder="¿Cuál es la url de tu perfil en GitHub/ GitLab/ Bitbucket/ Otro?" id="repository" name="repository" required="" pattern="https://.*">
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>(Opcional) ¿Cuál es link de tu perfil en LinkedIn?</label>
+                                <input type="text" class="form-control" placeholder="(Opcional) ¿Cuál es link de tu perfil en LinkedIn?" id="linkedin" name="linkedin">
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>(Opcional) ¿Cuál es tu Facebook?</label>
+                                <input type="text" class="form-control" placeholder="(Opcional) ¿Cuál es tu Facebook?" id="facebook" name="facebook">
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>(Opcional) ¿Cuál es tu Twitter?</label>
+                                <input type="text" class="form-control" placeholder="(Opcional) ¿Cuál es tu Twitter?" id="twitter" name="twitter">
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>En caso de tener camisetas ¿Cuál es tu talla? <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="En caso de tener camisetas ¿Cuál es tu talla?" id="shirt" name="shirt" required="">
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <button type="submit" class="form-control btn btn-primary">
+                                SUBMIT
+                              </button>
+
+                              <br><br><br><br><br><br><br>
+                            </div>
+                          </div>
+
+                        </form>
+                      </div>
+                    </div> <!-- cd-modal-content -->
+                  </div> <!-- cd-modal -->
+
+                  <a href="#0" class="cd-modal-close">Close</a>
+                </section> <!-- .cd-section -->
               </div>
             </div>
           </div>
         </div>
     </section>
+
     <!-- End Register -->
 
     <!-- Start Sponsors -->
@@ -547,92 +843,92 @@
           <div class="row">
             <div class="col-md-12">
               <div class="mu-sponsors-area">
-                
+
                 <div class="mu-title-area">
                   <h2 class="mu-title">Our Sponsors</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint assumenda ut molestias doloremque ipsam, fugit laborum totam, pariatur est cumque at, repudiandae officia ex dolores quas minus optio, iusto soluta?</p>
                 </div>
-                
+
                 <!-- Start spnonsors brand logo -->
                 <div class="mu-sponsors-content">
                   <div class="row">
-                  
+
                     <div class="col-md-2 col-sm-4 col-xs-4">
                       <div class="mu-sponsors-single">
                         <img src="assets/images/sponsor-logo-1.png" alt="Brand Logo">
                       </div>
                     </div>
-  
+
                     <div class="col-md-2 col-sm-4 col-xs-4">
                       <div class="mu-sponsors-single">
                         <img src="assets/images/sponsor-logo-2.png" alt="Brand Logo">
                       </div>
                     </div>
-  
+
                     <div class="col-md-2 col-sm-4 col-xs-4">
                       <div class="mu-sponsors-single">
                         <img src="assets/images/sponsor-logo-3.png" alt="Brand Logo">
                       </div>
                     </div>
-  
+
                     <div class="col-md-2 col-sm-4 col-xs-4">
                       <div class="mu-sponsors-single">
                         <img src="assets/images/sponsor-logo-4.png" alt="Brand Logo">
                       </div>
                     </div>
-  
+
                       <div class="col-md-2 col-sm-4 col-xs-4">
                       <div class="mu-sponsors-single">
                         <img src="assets/images/sponsor-logo-5.png" alt="Brand Logo">
                       </div>
                     </div>
-  
+
                     <div class="col-md-2 col-sm-4 col-xs-4">
                       <div class="mu-sponsors-single">
                         <img src="assets/images/sponsor-logo-6.png" alt="Brand Logo">
                       </div>
                     </div>
-  
+
                     <div class="col-md-2 col-sm-4 col-xs-4">
                       <div class="mu-sponsors-single">
                         <img src="assets/images/sponsor-logo-7.png" alt="Brand Logo">
                       </div>
                     </div>
-  
+
                     <div class="col-md-2 col-sm-4 col-xs-4">
                       <div class="mu-sponsors-single">
                         <img src="assets/images/sponsor-logo-8.png" alt="Brand Logo">
                       </div>
                     </div>
-  
+
                     <div class="col-md-2 col-sm-4 col-xs-4">
                       <div class="mu-sponsors-single">
                         <img src="assets/images/sponsor-logo-9.png" alt="Brand Logo">
                       </div>
                     </div>
-  
+
                       <div class="col-md-2 col-sm-4 col-xs-4">
                       <div class="mu-sponsors-single">
                         <img src="assets/images/sponsor-logo-1.png" alt="Brand Logo">
                       </div>
                     </div>
-  
+
                     <div class="col-md-2 col-sm-4 col-xs-4">
                       <div class="mu-sponsors-single">
                         <img src="assets/images/sponsor-logo-2.png" alt="Brand Logo">
                       </div>
                     </div>
-  
+
                     <div class="col-md-2 col-sm-4 col-xs-4">
                       <div class="mu-sponsors-single">
                         <img src="assets/images/sponsor-logo-3.png" alt="Brand Logo">
                       </div>
                     </div>
-  
+
                   </div>
                 </div>
                 <!-- End spnonsors brand logo -->
-  
+
               </div>
             </div>
           </div>
@@ -646,15 +942,15 @@
         <div class="row">
           <div class="col-md-12">
             <div class="mu-pricing-area">
-              
+
               <div class="mu-title-area">
                 <h2 class="mu-title">Pricing plans</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
               </div>
-              
+
               <div class="mu-pricing-conten">
                 <div class="row">
-                  
+
                   <!-- single price item -->
                   <div class="col-md-4">
                     <div class="mu-single-price">
@@ -741,82 +1037,80 @@
 
                   <div class="panel-group" id="accordion">
 
-                        <div class="panel panel-default">
-                          <div class="panel-heading">
-                            <h4 class="panel-title">
-                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
-                                <span class="fa fa-angle-down"></span> Lorem ipsum dolor sit amet.
-                              </a>
-                            </h4>
-                          </div>
-                          <div id="collapseOne" class="panel-collapse collapse in">
-                            <div class="panel-body">
-                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
+                              <span class="fa fa-angle-down"></span> Lorem ipsum dolor sit amet.
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                          <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                           </div>
                         </div>
+                      </div>
 
-                        <div class="panel panel-default">
-                          <div class="panel-heading">
-                            <h4 class="panel-title">
-                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                                <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                              </a>
-                            </h4>
-                          </div>
-                          <div id="collapseTwo" class="panel-collapse collapse">
-                            <div class="panel-body">
-                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                              <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                           </div>
                         </div>
+                      </div>
 
-                        <div class="panel panel-default">
-                          <div class="panel-heading">
-                            <h4 class="panel-title">
-                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                                <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur. 
-                              </a>
-                            </h4>
-                          </div>
-                          <div id="collapseThree" class="panel-collapse collapse">
-                            <div class="panel-body">
-                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                              <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur.
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                           </div>
                         </div>
+                      </div>
 
-                        <div class="panel panel-default">
-                          <div class="panel-heading">
-                            <h4 class="panel-title">
-                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                                <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur adipisicing. 
-                              </a>
-                            </h4>
-                          </div>
-                          <div id="collapseFour" class="panel-collapse collapse">
-                            <div class="panel-body">
-                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                              <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur adipisicing.
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                           </div>
                         </div>
+                      </div>
 
-                        <div class="panel panel-default">
-                          <div class="panel-heading">
-                            <h4 class="panel-title">
-                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                                <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur. 
-                              </a>
-                            </h4>
-                          </div>
-                          <div id="collapseFive" class="panel-collapse collapse">
-                            <div class="panel-body">
-                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                              <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur.
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                           </div>
                         </div>
-
-
+                      </div>
                     </div>
                 </div>
 
@@ -976,10 +1270,10 @@
     <!-- End Collaborators -->
 
   </main>
-  
-  <!-- End main content -->  
-      
-      
+
+  <!-- End main content -->
+
+
   <!-- Start footer -->
   <footer id="mu-footer" role="contentinfo">
       <div class="container">
@@ -996,13 +1290,13 @@
                   <div class="col-md-2 col-sm-4 col-xs-4">
                     <a href="https://pypereira.co/">
                       <img src="assets/images/pypereira.svg" alt="Brand Logo">
-                    </a>                   
+                    </a>
                   </div>
 
                   <div class="col-md-2 col-sm-4 col-xs-4">
                     <a href="https://sirius.utp.edu.co/jointdeveloper/">
                       <img src="assets/images/jointDeveloper.svg" alt="Brand Logo">
-                    </a>                    
+                    </a>
                   </div>
 
                   <div class="col-md-2 col-sm-4 col-xs-4">
@@ -1013,7 +1307,7 @@
 
                   <div class="col-md-2 col-sm-4 col-xs-4">
                     <a href="https://pereiratechtalks.com/">
-                      <img src="assets/images/Pereira _T_T_Artboard 2.svg" alt="Brand Logo">                      
+                      <img src="assets/images/Pereira _T_T_Artboard 2.svg" alt="Brand Logo">
                     </a>
                   </div>
                 </div>
@@ -1037,10 +1331,10 @@
   </footer>
   <!-- End footer -->
 
-  
-  
+
+
     <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- Bootstrap -->
     <script src="assets/js/bootstrap.min.js"></script>
@@ -1050,54 +1344,14 @@
     <script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
     <!-- Ajax contact form  -->
     <script type="text/javascript" src="assets/js/app.js"></script>
-    
+
+    <!-- Velocity js -->
+    <script type="text/javascript" src="assets/js/velocity.min.js"></script>
+
     <!-- Custom js -->
     <script type="text/javascript" src="assets/js/custom.js"></script>
-
-    <script>
-    // Process contact form
-      $('#contact-form').submit(function (event) {
-        event.preventDefault();
-        $('#feedback').html('');
-        setTimeout(function () {
-          // Get data
-          var data = {
-            'entry.1849763087': $('#name').val(),
-            'entry.557771612': $('#email').val(),
-            'entry.1063522904': $('#telephone').val(),
-            'entry.1986942934': $('#ticket').val()
-          };
-
-          // Validate form
-          var formSuccess = true;
-          Object.keys(data).forEach(function (key, index) {
-            if (!data[key]) {
-              formSuccess = false;
-              $('#feedback').html('<label class="text-danger">Please complete all fields</label>');
-            }
-          });
-
-          if (formSuccess) {
-            // Send request
-            $.ajax({
-              url: 'https://docs.google.com/forms/d/e/1FAIpQLScbeGWK_VRu1BKF0HbtyFtBZPizxr84sPnFYYrIEsQjn5j4Zg/formResponse',
-              type: 'POST',
-              crossDomain: true,
-              dataType: "jsonp",
-              data: data,
-              success: function (response) {
-                console.log(response);
-                $('#feedback').html('<label class="text-success">Message sent!</label>');
-              },
-              error: function (error) {
-                console.log(error);
-                $('#feedback').html('<label class="text-success">Message sent!</label>');
-              }
-            });
-          }
-        }, 300);
-      });
-    </script>
+    <script type="text/javascript" src="assets/js/morphing-modal.js"></script>
+    <script type="text/javascript" src="assets/js/cfp-form.js"></script>
 
   </body>
 </html>
