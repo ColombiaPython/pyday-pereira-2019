@@ -652,45 +652,180 @@
                         <form class="" id="contact-form">
 
                           <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                               <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Your Full Name" id="name" name="name" required="">
+                                <label>Título <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="Título" id="title" name="title" required="">
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>Elevator Pitch <span>*</span></label>
+                                <textarea class="form-control" placeholder="Elevator pitch" id="elevatorPitch" name="elevatorPitch" required=""></textarea>
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>Nivel de audiencia <span>*</span></label>
+                                <select class="form-control" name="audience" id="audience">
+                                  <option value="Principiante">Principiante</option>
+                                  <option value="Intermedio">Intermedio</option>
+                                  <option value="Avanzado">Avanzado</option>
+                                </select>
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>Descripción de la charla <span>*</span></label>
+                                <textarea class="form-control" placeholder="Descripción de la charla" id="description" name="description" required=""></textarea>
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>Requerimientos especiales <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="Descripción de la charla" id="requirements" name="requirements" required="">
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>Palabras clave <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="Descripción de la charla" id="keywords" name="keywords" required="">
                               </div>
                             </div>
 
                             <div class="col-md-6">
                               <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Enter Your Email" id="email" name="email" required="">
+                                <label>Nombres <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="Nombres" id="firstname" name="firstname" required="">
                               </div>
+                            </div>
+
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                <label>Apellidos <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="Apellidos" id="lastname" name="lastname" required="">
+                              </div>
+                            </div>
+
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                <label>Tipo de identificación <span>*</span></label>
+                                <select class="form-control" name="identificationType" id="identificationType">
+                                  <option value="Tarjeta de identidad">Tarjeta de identidad</option>
+                                  <option value="Cédula de ciudadanía">Cédula de ciudadanía</option>
+                                </select>
+                              </div>
+                            </div>
+
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                <label>Identificación <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="Identificación" id="identification" name="identification" required="">
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>Fecha de nacimiento <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="DD/MM/AAAA" id="birthdate" name="birthdate" required="">
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>Link a URL de una foto tuya <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="Link a URL de una foto tuya" id="photo" name="photo" required="">
+                              </div>
+                            </div>
+
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                <label>Ciudad origen <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="Ciudad origen" id="city" name="city" required="">
+                              </div>
+                            </div>
+
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                <label>¿Requieres alguna comida especial? <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="Eres vegano, vegetariano, alergias" id="specialFood" name="specialFood" required="">
+                              </div>
+                            </div>
+
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                <label>¿Qué cargo ejerces?</label>
+                                <input type="text" class="form-control" placeholder="(Opcional para estudiantes)" id="rol" name="rol">
+                              </div>
+                            </div>
+
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                <label>¿Cuál es tu correo electrónico? <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="¿Cuál es tu correo electrónico?" id="email" name="email" required="">
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>¿Cuál es tu número de celular? <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="(Un número que utilices para que en caso de emergencia podamos contactarte)" id="cellphone" name="cellphone" required="">
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>¿Cuál es la url de tu perfil en GitHub/ GitLab/ Bitbucket/ Otro? <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="¿Cuál es la url de tu perfil en GitHub/ GitLab/ Bitbucket/ Otro?" id="repository" name="repository" required="">
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>(Opcional) ¿Cuál es link de tu perfil en LinkedIn?</label>
+                                <input type="text" class="form-control" placeholder="(Opcional) ¿Cuál es link de tu perfil en LinkedIn?" id="linkedin" name="linkedin">
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>(Opcional) ¿Cuál es tu Facebook?</label>
+                                <input type="text" class="form-control" placeholder="(Opcional) ¿Cuál es tu Facebook?" id="facebook" name="facebook">
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>(Opcional) ¿Cuál es tu Twitter?</label>
+                                <input type="text" class="form-control" placeholder="(Opcional) ¿Cuál es tu Twitter?" id="twitter" name="twitter">
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label>En caso de tener camisetas ¿Cuál es tu talla? <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="En caso de tener camisetas ¿Cuál es tu talla?" id="shirt" name="shirt" required="">
+                              </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <button type="submit" class="form-control btn btn-primary">
+                                SUBMIT
+                              </button>
+
+                              <br><br><br><br><br><br><br>
                             </div>
                           </div>
-
-                          <div class="row">
-                            <div class="col-md-6">
-                              <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Your Phone Number" id="telephone" name="telephone" required="">
-                              </div>
-                            </div>
-                            <div class="col-md-6">
-
-                            <div class="form-group">
-                              <select class="form-control" name="ticket" id="ticket">
-                                <option value="0">Basic ($12)</option>
-                                <option value="1">Standard ($22)</option>
-                                <option value="2">Premium ($45)</option>
-                              </select>
-                            </div>
-                            </div>
-                          </div>
-
-                          <button type="submit" class="mu-reg-submit-btn">SUBMIT</button>
 
                         </form>
                       </div>
                     </div> <!-- cd-modal-content -->
                   </div> <!-- cd-modal -->
-
-
 
                   <a href="#0" class="cd-modal-close">Close</a>
                 </section> <!-- .cd-section -->
@@ -902,82 +1037,80 @@
 
                   <div class="panel-group" id="accordion">
 
-                        <div class="panel panel-default">
-                          <div class="panel-heading">
-                            <h4 class="panel-title">
-                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
-                                <span class="fa fa-angle-down"></span> Lorem ipsum dolor sit amet.
-                              </a>
-                            </h4>
-                          </div>
-                          <div id="collapseOne" class="panel-collapse collapse in">
-                            <div class="panel-body">
-                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
+                              <span class="fa fa-angle-down"></span> Lorem ipsum dolor sit amet.
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                          <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                           </div>
                         </div>
+                      </div>
 
-                        <div class="panel panel-default">
-                          <div class="panel-heading">
-                            <h4 class="panel-title">
-                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                                <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                              </a>
-                            </h4>
-                          </div>
-                          <div id="collapseTwo" class="panel-collapse collapse">
-                            <div class="panel-body">
-                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                              <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                           </div>
                         </div>
+                      </div>
 
-                        <div class="panel panel-default">
-                          <div class="panel-heading">
-                            <h4 class="panel-title">
-                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                                <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur.
-                              </a>
-                            </h4>
-                          </div>
-                          <div id="collapseThree" class="panel-collapse collapse">
-                            <div class="panel-body">
-                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                              <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur.
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                           </div>
                         </div>
+                      </div>
 
-                        <div class="panel panel-default">
-                          <div class="panel-heading">
-                            <h4 class="panel-title">
-                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                                <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur adipisicing.
-                              </a>
-                            </h4>
-                          </div>
-                          <div id="collapseFour" class="panel-collapse collapse">
-                            <div class="panel-body">
-                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                              <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur adipisicing.
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                           </div>
                         </div>
+                      </div>
 
-                        <div class="panel panel-default">
-                          <div class="panel-heading">
-                            <h4 class="panel-title">
-                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                                <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur.
-                              </a>
-                            </h4>
-                          </div>
-                          <div id="collapseFive" class="panel-collapse collapse">
-                            <div class="panel-body">
-                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                              <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur.
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                           </div>
                         </div>
-
-
+                      </div>
                     </div>
                 </div>
 
@@ -1218,51 +1351,7 @@
     <!-- Custom js -->
     <script type="text/javascript" src="assets/js/custom.js"></script>
     <script type="text/javascript" src="assets/js/morphing-modal.js"></script>
-
-    <script>
-    // Process contact form
-      $('#contact-form').submit(function (event) {
-        event.preventDefault();
-        $('#feedback').html('');
-        setTimeout(function () {
-          // Get data
-          var data = {
-            'entry.1849763087': $('#name').val(),
-            'entry.557771612': $('#email').val(),
-            'entry.1063522904': $('#telephone').val(),
-            'entry.1986942934': $('#ticket').val()
-          };
-
-          // Validate form
-          var formSuccess = true;
-          Object.keys(data).forEach(function (key, index) {
-            if (!data[key]) {
-              formSuccess = false;
-              $('#feedback').html('<label class="text-danger">Please complete all fields</label>');
-            }
-          });
-
-          if (formSuccess) {
-            // Send request
-            $.ajax({
-              url: 'https://docs.google.com/forms/d/e/1FAIpQLScbeGWK_VRu1BKF0HbtyFtBZPizxr84sPnFYYrIEsQjn5j4Zg/formResponse',
-              type: 'POST',
-              crossDomain: true,
-              dataType: "jsonp",
-              data: data,
-              success: function (response) {
-                console.log(response);
-                $('#feedback').html('<label class="text-success">Message sent!</label>');
-              },
-              error: function (error) {
-                console.log(error);
-                $('#feedback').html('<label class="text-success">Message sent!</label>');
-              }
-            });
-          }
-        }, 300);
-      });
-    </script>
+    <script type="text/javascript" src="assets/js/cfp-form.js"></script>
 
   </body>
 </html>

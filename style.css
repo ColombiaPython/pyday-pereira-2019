@@ -1380,7 +1380,9 @@ html.modal-open.modal-header-hidden .navbar {
   color: inherit;
 }
 
-
+#contact-form .form-group label span {
+  color: #ce2f55;
+}
 
 /*--------------------*/
 /* RESPONSIVE STYLE */
