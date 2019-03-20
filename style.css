@@ -440,7 +440,13 @@ button:focus {
   width: 100%;
 }
 
+.mu-other-events{
+  padding-left: 20px;
+}
 
+.mu-image-about{
+  padding-top: 20px;
+}
 
 /*--------------------*/
 /* VIDEO */
@@ -1343,6 +1349,10 @@ button:focus {
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+}
+
+.mu-communities{
+  padding-left: 280px;
 }
 
 
