@@ -1376,6 +1376,11 @@ html.modal-open.modal-header-hidden .navbar {
   display: block;
 }
 
+.cd-section .cd-modal .cd-modal-content p {
+  color: inherit;
+}
+
+
 
 /*--------------------*/
 /* RESPONSIVE STYLE */

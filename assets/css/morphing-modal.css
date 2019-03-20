@@ -48,8 +48,8 @@ body.overflow-hidden {
   height: 60px;
   pointer-events: none;
   background: transparent;
-  background: -webkit-linear-gradient( bottom , #34383c, rgba(52, 56, 60, 0));
-  background: linear-gradient(to top, #34383c, rgba(52, 56, 60, 0));
+  /*background: -webkit-linear-gradient( bottom , #34383c, rgba(52, 56, 60, 0));
+  background: linear-gradient(to top, #34383c, rgba(52, 56, 60, 0));*/
 }
 .cd-modal .cd-modal-content {
   height: 100%;
@@ -97,12 +97,12 @@ body.overflow-hidden {
 .cd-modal-action .btn, .cd-modal-action .cd-modal-bg {
   display: inline-block;
   height: 4em;
-  background-color: #34383c;
+  background-color: #ffffff;
 }
 .cd-modal-action .btn {
   width: 240px;
   border-radius: 5em;
-  color: #ffffff;
+  color: inherit;
   line-height: 42px;
   white-space: nowrap;
   font-weight: 700;
@@ -177,7 +177,7 @@ body.overflow-hidden {
   transition: transform 0.3s 0s, visibility 0s 0.3s, opacity 0.3s 0s;
 }
 .no-touch .cd-modal-close:hover {
-  background-color: rgba(0, 0, 0, 0.5);
+  /*background-color: rgba(0, 0, 0, 0.5);*/
 }
 .modal-is-visible .cd-modal-close {
   visibility: visible;
