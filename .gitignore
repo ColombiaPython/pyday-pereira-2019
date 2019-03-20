@@ -1,0 +1,22 @@
+node_modules/
+settings.json
+mup.js
+settings_test.json
+npm-debug.log
+.idea
+*.log
+*.directory
+
+### macOS template
+# General
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Config
+config/environment.json
+claudia.json
+dist
+build
+dive.log
+result.xml

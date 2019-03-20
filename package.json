@@ -1,0 +1,25 @@
+{
+  "name": "pyday-pereira-2019",
+  "version": "1.0.0",
+  "description": "PyDay Website",
+  "main": "index.js",
+  "scripts": {
+    "server": "opn http://localhost:8800 && http-server -p 8800"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColombiaPython/pyday-pereira-2019.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ColombiaPython/pyday-pereira-2019/issues"
+  },
+  "homepage": "https://github.com/ColombiaPython/pyday-pereira-2019#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "opn-cli": "^4.0.0"
+  }
+}
