@@ -1808,3 +1808,9 @@ html.modal-open.modal-header-hidden .navbar {
 
 }
 
+/* Custom */
+
+.avatar {
+  border-radius: 50%;
+  width: 90%;
+}
