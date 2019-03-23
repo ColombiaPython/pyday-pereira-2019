@@ -1804,6 +1804,11 @@ html.modal-open.modal-header-hidden .navbar {
   width: 90%;
 }
 
+.avatar-speaker {
+  border-radius: 20%;
+  width: 90%;
+}
+
 .mu-hero-overlay {
   background: url('./assets/images/intro.png');
   background-position: center; /* Center the image */
