@@ -62,15 +62,15 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav mu-menu navbar-right">
-              <li><a href="#mu-about">Evento</a></li>
-              <!-- <li><a href="#mu-speakers">Speakers</a></li> -->
-              <li><a href="#mu-schedule">Agenda</a></li>
-              <li><a href="#mu-venue">Lugar</a></li>
-              <li><a href="#mu-register">Registro</a></li>
-              <li><a href="#mu-sponsors">Sponsors</a></li>
-              <li><a href="#mu-pricing">Planes</a></li>
-              <li><a href="#mu-faq">FAQ</a></li>
-              <li><a href="#mu-contact">Colaboradores</a></li>
+              <li><a class="scroll-link" href="#mu-about">Evento</a></li>
+              <!-- <li><a class="scroll-link" href="#mu-speakers">Speakers</a></li> -->
+              <li><a class="scroll-link" href="#mu-schedule">Agenda</a></li>
+              <li><a class="scroll-link" href="#mu-venue">Lugar</a></li>
+              <li><a class="scroll-link" href="#mu-register">Registro</a></li>
+              <li><a class="scroll-link" href="#mu-sponsors">Sponsors</a></li>
+              <li><a class="scroll-link" href="#mu-pricing">Planes</a></li>
+              <li><a class="scroll-link" href="#mu-faq">FAQ</a></li>
+              <li><a class="scroll-link" href="#mu-contact">Colaboradores</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -99,7 +99,7 @@
 
                   </div>
                 </div>
-                <button type="submit" class="mu-reg-submit-btn">SUBMIT</button>
+                <button href="#mu-register" class="scroll-link mu-reg-submit-btn">REGISTRO</button>
               </div>
             </div>
           </div>
@@ -511,12 +511,6 @@
             <div class="col-md-12">
               <div class="mu-register-area">
 
-                <div class="mu-title-area">
-                  <h2 class="mu-title">Registro</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
-                </div>
-
-
                 <!-- <div class="mu-register-content">
                   <div id="feedback"></div>
                   <form class="mu-register-form" id="contact-form">
@@ -558,21 +552,25 @@
                         </form>
                 </div> -->
                 <section class="cd-section">
+                  <h2 class="mu-title">Registro</h2>
 
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ipsum repudiandae sequi ut optio reiciendis consectetur, cum, a provident, iusto quod esse, perferendis iure iste! Quidem itaque, exercitationem aliquam, mollitia recusandae repellat dolores quibusdam minima quae reprehenderit ut, reiciendis officia.
-                  </p>
+                  <div class="register-content">
+                    <p>⚠ Actualmente no se encuentra disponible nuestro formulario de registro como asistente al evento, mantente informado en las redes sociales sobre nuestra apertura.</p>
+                    <p>Si por el contrario quieres ser ponente del PyDay Pereira 2019, eres la persona que andabamos buscando 🎉🎉🎉. Dale click al botón de abajo y entérate sobre todo lo que necesitas saber para ser speaker del evento.</p>
+                  </div>
 
                   <div class="cd-modal-action">
-                    <a href="#0" class="btn" data-type="modal-trigger">QUIERO SER SPEAKER</a>
+                    <a href="#register-speaker" class="btn" data-type="modal-trigger" id="register">
+                      QUIERO SER SPEAKER
+                    </a>
                     <span class="cd-modal-bg"></span>
                   </div> <!-- cd-modal-action -->
 
                   <div class="cd-modal">
-                    <div class="cd-modal-content text-center">
+                    <div class="cd-modal-content">
                       <img src="assets/images/pp.jpeg" alt="speaker img" width="60" height="60">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat, temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora? Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero! Eius, dignissimos esse eligendi veniam.
+                        ¡Nos alegra mucho ver tu interés en enviar una propuesta! En PyDay Pereira son bienvenidas las charlas de cualquier nivel técnico; nuestra comunidad está compuesta de personas con diferentes trasfondos y años de experiencia. Ten en cuenta que las charlas pueden ser de cualquier índole pero deben estar relacionados con el lenguaje Python.
                       </p>
 
                       <h2>¿Qué temas buscamos en las charlas?</h2>
@@ -670,7 +668,16 @@
                       <p>Esperamos que en la propuesta, en la charla y durante el evento, cumplas con nuestro código de conducta, asegurate de leerlo, entenderlo y aplicarlo visitando el enlace <a href="https://www.calidev.co/codigo-de-conducta/">https://www.calidev.co/codigo-de-conducta/</a>.</p>
 
                       <div class="">
-                        <div id="feedback"></div>
+                        <div id="feedback" class="">
+                          <br><br><br>
+                          <img src="assets/images/success.png" alt="Success Icon">
+                          <p class="text-center" >
+                            <strong class="text-success">
+                              Tu propuesta se ha enviado éxitosamente. Te estaremos enviando un correo de confirmación en los próximos días.
+                              Si no recibes confirmación de recibido en máximo una semana envíanos un email a <a href="mailto:pythonpereira@gmail.com">pythonpereira@gmail.com</a>.
+                            </strong>
+                          </p>
+                        </div>
                         <form class="" id="contact-form">
 
                           <div class="row">
@@ -836,8 +843,11 @@
                             </div>
 
                             <div class="col-md-12">
+                              <strong>NOTA:</strong> Verifica toda tu información antes de enviar.
+                              <br><br>
+
                               <button type="submit" class="form-control btn btn-primary">
-                                SUBMIT
+                                ENVIAR PROPUESTA
                               </button>
 
                               <br><br><br><br><br><br><br>
@@ -849,7 +859,7 @@
                     </div> <!-- cd-modal-content -->
                   </div> <!-- cd-modal -->
 
-                  <a href="#0" class="cd-modal-close">Close</a>
+                  <a href="#register-speaker" class="cd-modal-close">Close</a>
                 </section> <!-- .cd-section -->
               </div>
             </div>
@@ -1148,11 +1158,11 @@
       <div class="container">
         <div class="row">
           <div class="mu-contact-area">
-            
+
             <div class="mu-title-area">
               <h2 class="mu-heading-title">Organizadores</h2>
             </div>
-            
+
             <div class="col-md-12 col-md-offset-1">
               <!--Start Collaborators-->
               <div class="mu-speakers-content">
@@ -1241,11 +1251,11 @@
         <div class="row">
           <div class="col-md-12">
             <div class="mu-contact-area">
-        
+
               <div class="mu-title-area">
                 <h2 class="mu-heading-title">Colaboradores</h2>
               </div>
-        
+
               <!--Start Collaborators-->
               <div class="mu-speakers-content">
                 <div class="row">
@@ -1372,10 +1382,12 @@
                       <div class="mu-single-speakers">
                         <img src="assets/images/colaboradores/sergio.jpg" alt="speaker img" class="avatar">
                         <div class="mu-single-speakers-info">
-                          <h3>Sergio Flórez</h3>
+                          <h3>Sergio A. Flórez</h3>
                           <p>Pereira Tech Talks - Pereira Js - Python Pereira</p>
                           <ul class="mu-single-speakers-social">
                             <li><a href="https://github.com/xergioalex" target="blank_"><i class="fa fa-github-alt"></i></a></li>
+                            <li><a href="https://twitter.com/XergioAleX" target="blank_"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://twitter.com/XergioAleX" target="blank_"><i class="fa fa-website"></i></a></li>
                           </ul>
                         </div>
                       </div>
@@ -1445,7 +1457,7 @@
             </div>
           </div>
           <div class="mu-footer-bottom">
-            <p class="mu-copy-right">&copy; Copyright <a rel="nofollow" href=" https://markups.io">markups.io</a>. All right reserved.</p>
+            <p class="mu-copy-right">&copy; Copyright <strong>Python Pereira</strong>. All right reserved.</p>
           </div>
         </div>
       </div>

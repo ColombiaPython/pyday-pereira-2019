@@ -811,7 +811,7 @@ button:focus {
   display: inline;
   float: left;
   width: 100%;
-  padding: 10% 5%;
+  padding: 8% 5%;
   color: #fff;
 }
 
@@ -1044,6 +1044,7 @@ button:focus {
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  font-weight: 600;
 }
 
 
@@ -1373,6 +1374,19 @@ html.modal-open.modal-header-hidden .navbar {
   color: #ce2f55;
 }
 
+.text-success a {
+  color: #369ddf;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+#feedback {
+  display: none;
+  margin-bottom: 300px;
+}
+
 /*--------------------*/
 /* RESPONSIVE STYLE */
 /*--------------------*/
@@ -1521,9 +1535,15 @@ html.modal-open.modal-header-hidden .navbar {
   .mu-single-price {
     margin-bottom: 30px;
   }
+}
 
+.register-content {
+  margin-bottom: 50px;
+}
 
-
+.register-content p {
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 @media (max-width: 767px) {

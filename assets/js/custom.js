@@ -58,7 +58,8 @@
   topMenu = $(".mu-menu"),
   topMenuHeight = topMenu.outerHeight()+13,
   // All list items
-  menuItems = topMenu.find('a[href^=\\#]'),
+
+  menuItems = $('.scroll-link'),
   // Anchors corresponding to menu items
   scrollItems = menuItems.map(function(){
     var item = $($(this).attr("href"));
@@ -196,5 +197,16 @@
   jQuery('.mu-menu').on('click', 'li a', function() {
     $('.mu-navbar .in').collapse('hide');
   });
+
+  jQuery('.mu-menu').on('click', 'li a', function() {
+    $('.mu-navbar .in').collapse('hide');
+  });
+
+  let urlHash = window.location.hash
+  if (urlHash === '#register-speaker' || urlHash === '#register') {
+    setTimeout(function () {
+      $('#register').click()
+    })
+  }
 
 })( jQuery );
