@@ -911,7 +911,6 @@ button:focus {
 }
 
 .mu-single-price ul li{
-  list-style: none;
   color: #555;
 }
 
@@ -1073,7 +1072,6 @@ button:focus {
 }
 
 .mu-sponsors-single {
-  background: #eee;
   display: inline;
   float: left;
   margin-top: 10px;
@@ -1081,6 +1079,10 @@ button:focus {
   width: 100%;
 }
 
+.mu-single-price ul {
+  padding: 0 25px;
+  text-align: left;
+}
 
 /*--------------------*/
 /* FAQ */
@@ -1866,4 +1868,28 @@ html.modal-open.modal-header-hidden .navbar {
   border-radius: 4px;
   background: white;
   animation: finger 1s infinite;
+}
+
+.gold {
+  color: #f0c417 !important;
+}
+
+.background-gold {
+  background-color: #f0c417 !important;
+}
+
+.silver {
+  color: #acacac !important;
+}
+
+.background-silver {
+  background-color: #acacac !important;
+}
+
+.bronze {
+  color: #d7843f !important;
+}
+
+.background-bronze {
+  background-color: #d7843f !important;
 }
