@@ -220,17 +220,6 @@ button:focus {
 /* HEADER */
 /*--------------------*/
 
-#mu-hero {
-  background-image: url("assets/images/2.jpg");
-  display: inline;
-  float: left;
-  width: 100%;
-  background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  background-size: cover;
-}
-
 .mu-hero-overlay {
   display: inline;
   float: left;
@@ -250,9 +239,9 @@ button:focus {
   font-family: 'Source Sans Pro', sans-serif;
   display: inline-block;
   font-weight: 600;
-  background: #fff;
   padding: 5px 20px;
   margin-bottom: 30px;
+  width: 300px;
 }
 
 
@@ -282,7 +271,7 @@ button:focus {
 .mu-hero-featured-area {
   display: inline;
   float: left;
-  padding: 60px 0 150px;
+  padding: 20px 0 100px;
   width: 100%;
 }
 
@@ -1813,4 +1802,63 @@ html.modal-open.modal-header-hidden .navbar {
 .avatar {
   border-radius: 50%;
   width: 90%;
+}
+
+.mu-hero-overlay {
+  background: url('./assets/images/intro.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.area-call-to-action {
+  color: #fff;
+  margin-bottom: 30px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  left: 0px;
+}
+
+@keyframes intro {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes finger {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+.mouse {
+  position: absolute;
+  width: 22px;
+  height: 42px;
+  bottom: 25px;
+  left: 50%;
+  margin-left: -12px;
+  border-radius: 15px;
+  border: 2px solid white;
+  animation: intro 1s;
+}
+
+.scroll {
+  display: block;
+  width: 3px;
+  height: 3px;
+  margin: 6px auto;
+  border-radius: 4px;
+  background: white;
+  animation: finger 1s infinite;
 }

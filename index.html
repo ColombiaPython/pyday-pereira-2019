@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>PyDay Pereira 2019</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/icon" href="assets/images/pp.jpeg"/>
+    <link rel="shortcut icon" type="image/icon" href="assets/images/logo.svg"/>
     <!-- Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     <!-- Bootstrap -->
@@ -19,6 +19,7 @@
 
     <!-- Main Style -->
     <link href="assets/css/morphing-modal.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 
     <!-- Fonts -->
@@ -36,7 +37,7 @@
   <body>
 
     <!-- Start Header -->
-  <header id="mu-hero" class="" role="banner">
+  <header>
     <!-- Start menu  -->
     <nav class="navbar navbar-fixed-top navbar-default mu-navbar">
         <div class="container">
@@ -53,7 +54,7 @@
 
             <!-- Logo -->
             <a class="navbar-collapse" href="#mu-hero">
-              <img src="assets/images/pp.jpeg" alt="speaker img" width="60" height="60">
+              <img src="assets/images/logo.svg" alt="speaker img" width="50" height="50">
             </a>
 
           </div>
@@ -82,20 +83,10 @@
           <div class="col-md-6">
             <!-- Start hero featured area -->
             <div class="mu-hero-featured-area">
-              <!-- Start center Logo -->
-              <div class="mu-logo-area">
-                <!-- text based logo -->
-                <!-- <a class="mu-logo" href="#">Eventoz</a> -->
-                <!-- image based logo -->
-                <a class="mu-logo" href="#"><img src="assets/images/logo.jpg" alt="logo img"></a>
-              </div>
-              <!-- End center Logo -->
-
               <div class="mu-hero-featured-content">
-
-                <h1>PYDAY PEREIRA 2019</h1>
+                <a class="mu-logo" href="#"><img src="assets/images/logo.svg" alt="logo img"></a>
                 <h2>Un día de Python, Data Science, Machine Learning, Infraestructura y más!</h2>
-                <p class="mu-event-date-line">Junio, 2019. Pereira, Risaralda, Colombia</p>
+                <p class="mu-event-date-line">Junio 29, 2019. Risaralda, Colombia.</p>
               </div>
             </div>
             <!-- End hero featured area -->
@@ -112,7 +103,16 @@
               </div>
             </div>
           </div>
-
+          <div class="row">
+            <div class="col-md-12">
+              <div class="area-call-to-action text-center animated fadeInDown delay-2s">
+                <div class="mouse">
+                  <div class="scroll"></div>
+                </div>
+                <span id="view_more" class="view_more">Más Información</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

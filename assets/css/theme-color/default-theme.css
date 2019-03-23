@@ -6,9 +6,9 @@ Author URI :  https://www.markups.io/
 
 .mu-hero-overlay,
 .mu-video-overlay {
-  background-color: #006b9a;/* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #fec13b, #006b9a);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fec13b, #006b9a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #369ddf;/* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fec13b, #369ddf);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fec13b, #369ddf); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -34,7 +34,7 @@ Author URI :  https://www.markups.io/
 .mu-navbar .mu-menu li a:hover,
 .mu-navbar .mu-menu li a:focus,
 .mu-single-event .mu-event-time {
-  color: #006b9a;
+  color: #369ddf;
 }
 
 .mu-speakers-slider .slick-next,
@@ -52,18 +52,18 @@ Author URI :  https://www.markups.io/
 .mu-schedule-menu li.active a,
 .mu-schedule-menu li.active a:hover,
 .mu-schedule-menu li.active a:focus {
-  background-color: #006b9a;
+  background-color: #369ddf;
 }
 
 .mu-social-media a:hover,
 .mu-social-media a:focus {
-  border: 1px solid #006b9a;
-  color: #006b9a;
+  border: 1px solid #369ddf;
+  color: #369ddf;
 }
 
 .mu-contact-form .form-control:focus,
 .mu-schedule-menu li a {
-  border: 1px solid #006b9a;    
+  border: 1px solid #369ddf;    
 } 
 
 .mu-send-msg-btn,
@@ -71,17 +71,17 @@ Author URI :  https://www.markups.io/
 .mu-register-btn:hover,
 .mu-register-btn:focus,
 .mu-popular-price .mu-register-btn {
-  border: 1px solid #006b9a;
-  background-color: #006b9a;
+  border: 1px solid #369ddf;
+  background-color: #369ddf;
 }
 
 .mu-faq-content .panel-default > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #006b9a;
+  border-top-color: #369ddf;
 
 }
 
 .mu-reg-submit-btn:hover,
 .mu-reg-submit-btn:focus {
-  background-color: #006b9a;
-  border: 2px solid #006b9a;
+  background-color: #369ddf;
+  border: 2px solid #369ddf;
 }
