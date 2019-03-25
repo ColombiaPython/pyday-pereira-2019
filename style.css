@@ -47,12 +47,11 @@ body {
 ul {
   padding: 0;
   margin: 0;
+  padding-left: 10%;
 }
 
 ul li {
   list-style: disc;
-  font-size: 17px;
-  line-height: 1.59;
 }
 
 a {
@@ -994,7 +993,6 @@ button:focus {
   float: left;
   width: 100%;
   text-align: center;
-  padding: 0 200px;
   margin-top: 50px;
 }
 
@@ -1070,6 +1068,7 @@ button:focus {
   float: left;
   margin-top: 50px;
   width: 100%;
+  margin-left: 17%;
 }
 
 .mu-sponsors-single {
