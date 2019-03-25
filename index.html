@@ -63,8 +63,8 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav mu-menu navbar-right">
               <li><a class="scroll-link" href="#mu-about">Evento</a></li>
-              <!-- <li><a class="scroll-link" href="#mu-speakers">Speakers</a></li> -->
-              <!-- <li><a class="scroll-link" href="#mu-schedule">Agenda</a></li> -->
+              <!--<li><a class="scroll-link" href="#mu-speakers">Speakers</a></li> -->
+              <li><a class="scroll-link" href="#mu-schedule">Agenda</a></li>
               <li><a class="scroll-link" href="#mu-venue">Lugar</a></li>
               <li><a class="scroll-link" href="#mu-register">Registro</a></li>
               <li><a class="scroll-link" href="#mu-sponsors">Patrocinadores</a></li>
@@ -121,6 +121,7 @@
 
   <!-- Start main content -->
   <main role="main">
+
     <!-- Start About -->
     <section id="mu-about">
       <div class="container">
@@ -322,7 +323,75 @@
     <!-- End Speakers -->
 
     <!-- Start Schedule  -->
-    <!-- <section id="mu-schedule">
+
+      <!-- Agenda antes del evento-->
+      <section id="mu-schedule">
+        <div class="container">
+          <div class="row">
+            <div class="colo-md-12">
+              <div class="mu-schedule-area">
+
+                <div class="mu-title-area">
+                  <h2 class="mu-title">Agenda del evento</h2>
+                  <p>¡¡ Un día de Python, Data Science, Machine Learning, Infraestructura y más !!</p>
+                  <p>Enterate de las fechas limites que tenemos en este gran evento!!...</p>
+                </div>
+
+                <div class="mu-schedule-content-area">
+                  <div class="tab-content mu-schedule-content">
+                      <div role="tabpanel" class="tab-pane fade mu-event-timeline in active" id="first-day">
+                        <ul>
+                          <li>
+                            <div class="mu-single-event">
+                              <p class="mu-event-time">28 Marzo - 26 Abril</p>
+                              <h3>Convocatorias para ponentes</h3>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="mu-single-event">
+                              <p class="mu-event-time">17 Abril - 3 Mayo</p>
+                              <h3>Selección de charlas</h3>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="mu-single-event">
+                                <p class="mu-event-time">4 Mayo</p>
+                                <h3>Notificación de charlas aceptadas</h3>
+                            </div>                         
+                          </li>
+                          <li>
+                            <div class="mu-single-event">
+                                <p class="mu-event-time">4 Mayo - 10 Mayo</p>
+                                <h3>Confirmación por parte de ponentes</h3>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="mu-single-event">
+                                <p class="mu-event-time">11 Mayo - 21 Junio</p>
+                                <h3>Inscripción de asistentes</h3>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="mu-single-event">
+                              <img src="assets/images/logo.svg" alt="event speaker">
+                              <p class="mu-event-time">29 Junio</p>
+                              <h3>Dia del evento!! 🎉🎉🎉</h3>
+                              <span>Auditorio Jorge Roa Martínez-UTP</span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> 
+      <!-- End Agenda antes del evento-->
+      
+      <!-- Agenda dia del evento-->
+      <!-- <section id="mu-schedule">
       <div class="container">
         <div class="row">
           <div class="colo-md-12">
@@ -469,6 +538,8 @@
         </div>
       </div>
     </section> -->
+      <!-- End Agenda dia del evento-->
+    
     <!-- End Schedule -->
 
     <!-- Start Venue -->
@@ -507,65 +578,26 @@
           <div class="row">
             <div class="col-md-12">
               <div class="mu-register-area">
-
-                <!-- <div class="mu-register-content">
-                  <div id="feedback"></div>
-                  <form class="mu-register-form" id="contact-form">
-
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <input type="text" class="form-control" placeholder="Your Full Name" id="name" name="name" required="">
-                        </div>
-                      </div>
-
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <input type="email" class="form-control" placeholder="Enter Your Email" id="email" name="email" required="">
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <input type="text" class="form-control" placeholder="Your Phone Number" id="telephone" name="telephone" required="">
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-
-                      <div class="form-group">
-                        <select class="form-control" name="ticket" id="ticket">
-                          <option value="0">Basic ($12)</option>
-                          <option value="1">Standard ($22)</option>
-                          <option value="2">Premium ($45)</option>
-                        </select>
-                      </div>
-                      </div>
-                    </div>
-
-                    <button type="submit" class="mu-reg-submit-btn">SUBMIT</button>
-
-                        </form>
-                </div> -->
                 <section class="cd-section">
                   <h2 class="mu-title">Registro</h2>
 
                   <div class="register-content">
-                    <p>⚠ Actualmente no se encuentra disponible nuestro formulario de registro como asistente al evento, mantente informado en las redes sociales sobre nuestra apertura.</p>
-                    <p>Si por el contrario quieres ser ponente del PyDay Pereira 2019, eres la persona que andabamos buscando 🎉🎉🎉. Dale click al botón de abajo y entérate sobre todo lo que necesitas saber para ser speaker del evento.</p>
+                    <p>Actualmente no se encuentra disponible nuestro formulario de registro como asistente al evento, mantente informado en las redes sociales sobre nuestra apertura, si 
+                      por el contrario quieres ser ponente del PyDay Pereira 2019, eres la persona que andabamos buscando 🎉🎉🎉. </p>
+                      
+                    <p>Dale click al botón de abajo y entérate sobre todo lo que necesitas saber para ser ponente del evento.</p>
                   </div>
 
                   <div class="cd-modal-action">
                     <a href="#register-speaker" class="btn" data-type="modal-trigger" id="register">
-                      QUIERO SER SPEAKER
+                      ¡ QUIERO SER PONENTE !
                     </a>
                     <span class="cd-modal-bg"></span>
                   </div> <!-- cd-modal-action -->
 
                   <div class="cd-modal">
                     <div class="cd-modal-content">
-                      <img src="assets/images/pp.jpeg" alt="speaker img" width="60" height="60">
+                      <img src="assets/images/banner.png" alt="speaker img">
                       <p>
                         ¡Nos alegra mucho ver tu interés en enviar una propuesta! En PyDay Pereira son bienvenidas las charlas de cualquier nivel técnico; nuestra comunidad está compuesta de personas con diferentes trasfondos y años de experiencia. Ten en cuenta que las charlas pueden ser de cualquier índole pero deben estar relacionados con el lenguaje Python.
                       </p>
@@ -600,51 +632,48 @@
 
                       <p>Y no te preocupes, si crees que tu charla no corresponde a ninguno de los temas propuestos, ten presente que estos son solo para darte una idea de lo qué estamos buscando, si tienes algo diferente, relacionado y que consideras valioso, déjanos conocer tu propuesta, tal vez descubramos nuevos temas para hacer del evento algo aun mejor.</p>
 
-                      <h2>¿Por qué debes dictar una charla en PyDay Cali?</h2>
+                      <h2>¿Por qué debes dictar una charla en PyDay Pereira?</h2>
 
                       <ul>
                         <li>Obtendrás una camiseta gratis del evento :D</li>
                         <li>Tendrás un video de tu charla producido profesionalmente y compartido en nuestro canal de YouTube (Ver sección <strong>Videos de Charlas</strong>)</li>
                         <li>Serás pionero en un evento novedoso para la comunidad de Python en Colombia</li>
                         <li>Podrás compartir tu presentación con más de 200 participantes</li>
-                        <li>Si planeas participar de <a href="https://pycon.co">PyCon Colombia 2019</a> dictando una charla, este es el espacio adecuado para que practiques tu presentación!</li>
+                        <li>Si planeas participar de <a href="https://pycon.co">PyCon Colombia 2020</a> dictando una charla, este es el espacio adecuado para que practiques tu presentación!</li>
                       </ul>
 
+                      <br>
                       <h2>¿Cuánto dura cada charla?</h2>
 
                       <p>El tiempo por charlas es de <strong>45 minutos incluyendo preguntas</strong>, esperamos que respetes este tiempo y planees tu charla de acuerdo a esto</p>
 
                       <h2>¿Cómo proponer una charla?</h2>
 
-                      <p>Llena el formulario de PaperCall de acuerdo a las siguientes recomendaciones:</p>
+                      <p>Llena el formulario de acuerdo a las siguientes recomendaciones:</p>
 
                       <ul>
                         <li>
-                      <strong>Title:</strong> Escribe un título breve, específico y atractivo para tu charla</li>
+                          <strong>Titulo:</strong> Escribe un título breve, específico y atractivo para tu charla</li>
                         <li>
-                      <strong>Elevator Pitch:</strong> Tienes 300 caracteres para convencernos de seleccionar tu charla, este resumen debe expresar brevemente cosas como, sobre qué tratará tu charla, qué aprenderán los asistentes, etc. Hazlo emocionante, recuerda que este será el resumen que utilizaremos en la web para promocionar tu charla.</li>
+                          <strong>Elevator Pitch:</strong> Tienes 300 caracteres para convencernos de seleccionar tu charla, este resumen debe expresar brevemente cosas como, sobre qué tratará tu charla, qué aprenderán los asistentes, etc. Hazlo emocionante, recuerda que este será el resumen que utilizaremos en la web para promocionar tu charla.</li>
                         <li>
-                      <strong>Audience Level:</strong> ¿Qué nivel esperas que tengan los participantes de tu charla? Las categorías son las siguientes:
+                          <strong>Nivel de audiencia:</strong> ¿Qué nivel esperas que tengan los participantes de tu charla? Las categorías son las siguientes:
                           <ul>
                             <li>
-                      <em>All</em> (No requiere experiencia en la programación)</li>
+                              <em>Todos</em> (No requiere experiencia en la programación)</li>
                             <li>
-                      <em>Beginner</em> (No requiere experiencia en Python)</li>
+                              <em>Principiante</em> (No requiere experiencia en Python)</li>
                             <li>
-                      <em>Intermediate</em> (Requiere experiencia en Python)</li>
+                              <em>Intermedio</em> (Requiere experiencia en Python)</li>
                             <li>
-                      <em>Advanced</em> (Requiere experiencia avanzada en Python y programación)</li>
+                              <em>Avanzado</em> (Requiere experiencia avanzada en Python y programación)</li>
                           </ul>
                         </li>
                         <li>
-                      <strong>Description:</strong> Danos más detalles sobre tu charla, ¿Qué planeas cubrir?, ¿Por qué es importante tu charla para el evento?, ¿Qué requerimientos técnicos tiene tu charla? También debes incluir una tabla de contenidos para tu charla con tiempos estimados por sección, así nos demuestras que tu charla respetará los tiempos acordados (<strong>45 minutos</strong>)</li>
+                          <strong>Descripción:</strong> Danos más detalles sobre tu charla, ¿Qué planeas cubrir?, ¿Por qué es importante tu charla para el evento?, ¿Qué requerimientos técnicos tiene tu charla? También debes incluir una tabla de contenidos para tu charla con tiempos estimados por sección, así nos demuestras que tu charla respetará los tiempos acordados (<strong>45 minutos</strong>)</li>
                         <li>
-                      <strong>Notes:</strong> En esta sección puedes responder preguntas adicionales como: ¿Por qué eres la persona adecuada para dar esta charla? ¿Has dado esta charla anteriormente?</li>
-                        <li>
-                      <strong>Tags:</strong> Asegurate de incluir tags personalizados para ayudarnos a agrupar las charlas por temas</li>
-                      </ul>
-
-                      <p>Otro campo que es muy importante para nosotros es la <strong>Biografía</strong>. En esta esperamos que incluyas información como: ¿Quién eres? ¿Cuál es tu experiencia en Python y en programación? ¿Perteneces a alguna comunidad de programación del país? ¿Lideras alguna comunidad de programación del país? ¿Has dado charlas en eventos anteriormente? y cualquier otra información sobre tu perfil que consideres interesante que sepamos antes de calificar tu charla.</p>
+                          <strong>Palabras Clave:</strong> Asegurate de incluir tags personalizados para ayudarnos a agrupar las charlas por temas</li>
+                      </ul><br>                  
 
                       <h2>¿Cuántas propuestas puedes enviar?</h2>
 
@@ -652,17 +681,17 @@
 
                       <h2>¿Cuando sabré si mi charla fue aceptada?</h2>
 
-                      <p>Confirmaremos a todos los proponentes sobre la aceptación, rechazo o “en lista de espera” el <strong>12 de Octubre de 2018</strong> mediante correo electrónico, asi que para agilizar las cosas, esperamos que estés bien atento a tu correo en esa fecha.</p>
+                      <p>Confirmaremos a todos los proponentes sobre la aceptación, rechazo o “en lista de espera” el <strong>4 de Mayo de 2019</strong> mediante correo electrónico, asi que para agilizar las cosas, esperamos que estés bien atento a tu correo en esa fecha.</p>
 
                       <h2>Videos de Charlas</h2>
 
-                      <p>Dado que no todos pueden asistir a PyDay Cali, hemos decidido grabar los videos de las charlas y subirlos a nuestro canal de YouTube, al enviar tu propuesta aceptas y nos das permiso para poder conservar copias, compartir a través de nuestros diferentes canales las grabaciones, videos sin editar y editados, fotografías capturas de pantalla y cualquier otro registro en imagen, video o audio esta tarea. Ten en cuenta que deshabilitaremos por defecto los comentarios en los videos. Si tienes algún problema con esto, expresalo en la sección de información adicional y lo resolveremos.</p>
+                      <p>Dado que no todos pueden asistir a PyDay Pereira, hemos decidido grabar los videos de las charlas y subirlos a nuestro canal de YouTube, al enviar tu propuesta aceptas y nos das permiso para poder conservar copias, compartir a través de nuestros diferentes canales las grabaciones, videos sin editar y editados, fotografías capturas de pantalla y cualquier otro registro en imagen, video o audio esta tarea. Ten en cuenta que deshabilitaremos por defecto los comentarios en los videos. Si tienes algún problema con esto, expresalo en la sección de información adicional y lo resolveremos.</p>
 
                       <p>Es importante también que tus diapositivas y material extra de la charla estén bajo una licencia libre, así podremos utilizarlas en nuestros videos, sitio web y redes sociales.</p>
 
                       <h2>Código de Conducta</h2>
 
-                      <p>Esperamos que en la propuesta, en la charla y durante el evento, cumplas con nuestro código de conducta, asegurate de leerlo, entenderlo y aplicarlo visitando el enlace <a href="https://www.calidev.co/codigo-de-conducta/">https://www.calidev.co/codigo-de-conducta/</a>.</p>
+                      <p>Esperamos que en la propuesta, en la charla y durante el evento, cumplas con nuestro código de conducta, asegurate de leerlo, entenderlo y aplicarlo visitando el enlace <a href="https://pereira.pyday.co/">https://pereira.pyday.co/</a>.</p>
 
                       <div class="">
                         <div id="feedback" class="">
@@ -670,7 +699,7 @@
                           <img src="assets/images/success.png" alt="Success Icon">
                           <p class="text-center" >
                             <strong class="text-success">
-                              Tu propuesta se ha enviado éxitosamente. Te estaremos enviando un correo de confirmación en los próximos días.
+                              Tu propuesta se ha enviado éxitosamente. Te estaremos enviando un correo de confirmación en las fechas establecidas.
                               Si no recibes confirmación de recibido en máximo una semana envíanos un email a <a href="mailto:pythonpereira@gmail.com">pythonpereira@gmail.com</a>.
                             </strong>
                           </p>
@@ -696,6 +725,7 @@
                               <div class="form-group">
                                 <label>Nivel de audiencia <span>*</span></label>
                                 <select class="form-control" name="audience" id="audience">
+                                  <option value="Todos">Principiante</option>
                                   <option value="Principiante">Principiante</option>
                                   <option value="Intermedio">Intermedio</option>
                                   <option value="Avanzado">Avanzado</option>
@@ -713,14 +743,14 @@
                             <div class="col-md-12">
                               <div class="form-group">
                                 <label>Requerimientos especiales <span>*</span></label>
-                                <input type="text" class="form-control" placeholder="Descripción de la charla" id="requirements" name="requirements" required="">
+                                <input type="text" class="form-control" placeholder="Requerimientos especiales" id="requirements" name="requirements" required="">
                               </div>
                             </div>
 
                             <div class="col-md-12">
                               <div class="form-group">
                                 <label>Palabras clave <span>*</span></label>
-                                <input type="text" class="form-control" placeholder="Descripción de la charla" id="keywords" name="keywords" required="">
+                                <input type="text" class="form-control" placeholder="Palabras clave" id="keywords" name="keywords" required="">
                               </div>
                             </div>
 
@@ -765,7 +795,7 @@
                             <div class="col-md-12">
                               <div class="form-group">
                                 <label>Link a URL de una foto tuya <span>*</span></label>
-                                <input type="url" class="form-control" placeholder="Link a URL de una foto tuya" id="photo" name="photo" required="" pattern="https://.*">
+                                <input type="url" class="form-control" placeholder="Link a URL" id="photo" name="photo" required="" pattern="https://.*">
                               </div>
                             </div>
 
@@ -887,6 +917,19 @@
                         <img src="assets/images/python-colombia.jpg" alt="Brand Logo">
                       </div>
                     </div>
+                    
+                    <div class="col-md-3 col-sm-4 col-xs-4">
+                      <div class="mu-sponsors-single">
+                        <img src="assets/images/ASE-UTP.png" alt="Brand Logo">
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-4 col-xs-4" >
+                      <div class="mu-sponsors-single">
+                        <img src="assets/images/caliDev.jpg" width="125" height="125" alt="Brand Logo">
+                      </div>
+                    </div>
+                    
                   </div>
                 </div>
                 <!-- End spnonsors brand logo -->
@@ -1000,8 +1043,8 @@
               <div class="mu-faq-area">
 
                 <div class="mu-title-area">
-                  <h2 class="mu-title">FAQ</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint assumenda ut molestias doloremque ipsam, fugit laborum totam, pariatur est cumque at, repudiandae officia ex dolores quas minus optio, iusto soluta?</p>
+                  <h2 class="mu-title">Preguntas Frecuentes (FAQ)</h2>
+                  <p>Algunas pequeñas preguntas que te pueden sacar algunas dudas. De cualquier forma, si hay algo que no quede claro aquí, por favor escribinos un email y nos pondremos en contacto contigo.</p>
                 </div>
 
                 <div class="mu-faq-content">
@@ -1012,13 +1055,15 @@
                         <div class="panel-heading">
                           <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
-                              <span class="fa fa-angle-down"></span> Lorem ipsum dolor sit amet.
+                              <span class="fa fa-angle-down"></span> ¿Cómo puedo registrarme? 
                             </a>
                           </h4>
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse in">
                           <div class="panel-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                              Debes estar atento de las redes sociales del evento y a nuestra página web, ten presente 
+                              que solo se tenemos 200 cupos, así que debes estar muy pendiente para reservar y no quedarte 
+                              por fuera de este gran evento.
                           </div>
                         </div>
                       </div>
@@ -1027,13 +1072,13 @@
                         <div class="panel-heading">
                           <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                              <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                              <span class="fa fa-angle-up"></span> ¿El evento es gratuito?
                             </a>
                           </h4>
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse">
                           <div class="panel-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                              Si, el evento es totalmente gratuito.  
                           </div>
                         </div>
                       </div>
@@ -1042,13 +1087,13 @@
                         <div class="panel-heading">
                           <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                              <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur.
+                              <span class="fa fa-angle-up"></span> ¿Cuantos dias dura el evento?
                             </a>
                           </h4>
                         </div>
                         <div id="collapseThree" class="panel-collapse collapse">
                           <div class="panel-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                              Este evento tiene una duración de un dia (08:00 - 18:00).
                           </div>
                         </div>
                       </div>
@@ -1057,13 +1102,13 @@
                         <div class="panel-heading">
                           <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                              <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur adipisicing.
+                              <span class="fa fa-angle-up"></span> ¿Si no soy de la UTP puedo asistir?
                             </a>
                           </h4>
                         </div>
                         <div id="collapseFour" class="panel-collapse collapse">
                           <div class="panel-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                              Si puedes asistir, este es un evento abierto a todo público interesado en aprender más sobre Python.
                           </div>
                         </div>
                       </div>
@@ -1071,20 +1116,153 @@
                       <div class="panel panel-default">
                         <div class="panel-heading">
                           <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                              <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur.
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                              <span class="fa fa-angle-up"></span> ¿Cómo puede mi organización convertirse en patrocinador del evento?
                             </a>
                           </h4>
                         </div>
-                        <div id="collapseFive" class="panel-collapse collapse">
+                        <div id="collapseSix" class="panel-collapse collapse">
                           <div class="panel-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                              Escribenos a python.pereira@gmail.com indicando que estás interesado en patrocinarnos, 
+                              los planes de patrocinio se encuentran en la sección Planes de nuestra página web, pero 
+                              estamos abiertos a oir nuevas propuestas.
                           </div>
                         </div>
                       </div>
+
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
+                              <span class="fa fa-angle-up"></span> ¿Qué temas se hablarán en el PyDay?
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseSeven" class="panel-collapse collapse">
+                          <div class="panel-body">
+                              Tendremos un día de Python, Data Science, Machine Learning, infraestructura y más!
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseEight">
+                              <span class="fa fa-angle-up"></span> ¿El evento cuenta con alimentación garantizada?
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseEight" class="panel-collapse collapse">
+                          <div class="panel-body">
+                              Gracias a la gestión del equipo organizador contaremos con patrocinadores 
+                              que permitiran que este evento cuente con refrigerios en la mañana y en la tarde, 
+                              además de una estación de café durante todo el día.
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseNine">
+                              <span class="fa fa-angle-up"></span> Solo quiero/puedo asistir durante unas horas. ¿Es posible hacerlo sin registrarse?
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseNine" class="panel-collapse collapse">
+                          <div class="panel-body">
+                              No, contamos con cupos limitados y esperamos que estos los ocupen las personas 
+                              que puedan asistir durante toda la jornada.
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTen">
+                              <span class="fa fa-angle-up"></span> ¿Recibiré un certificado de asistencia?
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseTen" class="panel-collapse collapse">
+                          <div class="panel-body">
+                              Si, este será enviado vía correo electrónico días después del evento.
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">
+                              <span class="fa fa-angle-up"></span> ¿Necesito llevar mi computador?
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseEleven" class="panel-collapse collapse">
+                          <div class="panel-body">
+                              No es necesario, aunque si quieres tomar apuntes lo puedes traer.
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve">
+                              <span class="fa fa-angle-up"></span> ¿El sitio es seguro?
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseTwelve" class="panel-collapse collapse">
+                          <div class="panel-body">
+                              Si, pero debes estar pendiente de tus objetos personales debido 
+                              a que los organizadores no se hacen responsables por pérdidas o 
+                              hurtos durante el evento.
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThirteen">
+                              <span class="fa fa-angle-up"></span> Código de Conducta
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseThirteen" class="panel-collapse collapse">
+                          <div class="panel-body">
+                              PyDay Pereira es una conferencia libre y para todos sin importar género, orientación sexual, habilidades físicas, apariencia física, raza, religión o postura política. No se tolerarán los abuso a este principio por parte de ningún participante de la conferencia.
+
+                              Todas las comunicaciones deben estar enfocadas a una audiencia profesional incluyendo personas con diferentes currículos y experiencias. El lenguaje sexual no es apropiado para ningún evento organizado bajo nuestras normas, incluyendo las charlas.
+                              
+                              La organización del evento recomienda encarecidamente:
+                              
+                              Tener un trato amable con los demás miembros.
+                              Mantener el respeto hacia los demás participantes.
+                              Comportarse profesionalmente.
+                              Recordar que cualquier conducta de acoso, sexismo, racismo o división política o de cualquier instancia, no es apropiada para la participación dentro de la conferencia.
+                              No asistir a la conferencia bajo influencia de bebidas alcohólicas o estupefacientes.
+                              
+                              La organización de PyDay se reserva el derecho de expulsar a cualquier participante, sin importar el tipo, que no cumpla con cualquiera de estas normas bajo discreción del comité organizador.
+                              
+                              Gracias por acogerse a estos términos y bienvenido a PyDay Pereira. Este es un evento amistoso de todos para todos.
+                              
+                              Si usted ha sido acosado, se da cuenta de que alguien más está siendo acosado, está violando los términos descritos aquí o tiene algún problema, por favor contacte nuestros organizadores.
+                              
+                              Nuestro equipo en la conferencia también estará disponible para colaborar y contactar la seguridad local ó asistirlo, para garantizar su seguridad. Nosotros valoramos su presencia en nuestros eventos.
+                              
+                              En caso de alguna violación a los términos de este código de conducta por parte de los organizadores por favor contactar el organizador principal de la conferencia, Carolina Gómez Trejos(carolina9511@gmail.com)
+                              
+                          </div>
+                        </div>
+                      </div>
+
                     </div>
                 </div>
-
               </div>
             </div>
           </div>
