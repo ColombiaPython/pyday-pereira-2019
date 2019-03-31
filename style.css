@@ -1063,7 +1063,14 @@ button:focus {
   width: 100%;
 }
 
-.mu-sponsors-content {
+.mu-sponsors-content-1 {
+  display: inline;
+  float: left;
+  width: 90%;
+  margin-left: 40%;
+}
+
+.mu-sponsors-content-2 {
   display: inline;
   float: left;
   margin-top: 50px;
