@@ -1032,9 +1032,9 @@ button:focus {
 }
 
 .mu-reg-submit-btn {
-  background-color: transparent;
+  background-color: #FDE465;
   border: 2px solid #fff;
-  color: #fff;
+  color: #464646;
   padding: 12px 75px;
   margin-top: 20px;
   letter-spacing: 1px;
