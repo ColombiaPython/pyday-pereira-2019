@@ -1032,9 +1032,9 @@ button:focus {
 }
 
 .mu-reg-submit-btn {
-  background-color: transparent;
+  background-color: #FDE465;
   border: 2px solid #fff;
-  color: #fff;
+  color: #464646;
   padding: 12px 75px;
   margin-top: 20px;
   letter-spacing: 1px;
@@ -1063,7 +1063,14 @@ button:focus {
   width: 100%;
 }
 
-.mu-sponsors-content {
+.mu-sponsors-content-1 {
+  display: inline;
+  float: left;
+  width: 90%;
+  margin-left: 40%;
+}
+
+.mu-sponsors-content-2 {
   display: inline;
   float: left;
   margin-top: 50px;
