@@ -731,6 +731,15 @@ button:focus {
   width: 100%;
 }
 
+.mu-speakers-content-organizer{
+  display: inline;
+  float: left;
+  margin-top: 50px;
+  width: 100%;
+  margin-left:10%;
+}
+
+
 .mu-single-speakers {
   padding: 0 10px;
   outline: none;
@@ -738,6 +747,8 @@ button:focus {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+
+
 
 .mu-speakers-slider .slick-next {
   right: -60px;
