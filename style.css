@@ -313,7 +313,6 @@ button:focus {
 }
 
 #mu-event-counter{
-  border: 2px solid #fff;
   display: inline;
   float: left;
   width: 100%;
@@ -1044,7 +1043,6 @@ button:focus {
 
 .mu-reg-submit-btn {
   background-color: #FDE465;
-  border: 2px solid #fff;
   color: #464646;
   padding: 12px 75px;
   margin-top: 20px;
