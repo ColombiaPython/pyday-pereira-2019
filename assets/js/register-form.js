@@ -16,6 +16,7 @@ $('#contact-form').submit(function (event) {
       'entry.1968363200': $('#programmingLevel').val(),
       'entry.1285830533': $('#specialFood').val(),
       'entry.466971648': $('#linkedin').val(),
+      'entry.995681935': $('#communitiesInformation').val(),
       'entry.1741724825': $('#shareInformationWithSponsors').val(),
       'entry.1302466770': $('#termsAndConditions').is(':checked')? 'Si': 'No'
     }
