@@ -65,6 +65,40 @@ body.overflow-hidden {
   line-height: 1.6;
   margin: 2em 0;
 }
+
+.cd-modal a {
+  color: #337ab7 !important;
+}
+
+.cd-modal a:hover {
+  color: #0465b9 !important;
+}
+
+.cd-modal .form-check {
+  margin-top: 15px;
+}
+
+.cd-modal .form-check input {
+  vertical-align: text-bottom;
+  margin-right: 5px;
+}
+
+.cd-modal .btn-primary {
+  font-weight: bold;
+  height: 40px;
+  font-size: 16px;
+}
+
+.cd-modal label.required {
+  color: #ce2f55;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.cd-modal .form-check input, .cd-modal .form-check label {
+  cursor: pointer;
+}
+
 .modal-is-visible .cd-modal {
   z-index: 1;
   visibility: visible;
@@ -195,4 +229,8 @@ body.overflow-hidden {
   .cd-modal-close {
     top: 70px;
   }
+}
+
+#feedback img {
+  width: 100px;
 }
