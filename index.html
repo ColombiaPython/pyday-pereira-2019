@@ -308,7 +308,7 @@
               <div class="row">
                 <!-- Start single speaker -->
                 <div class="mu-single-speakers">
-                  <div class="col-md-offset-4 col-md-3 col-xs-6">
+                  <div class="col-md-offset-3 col-md-3 col-xs-6">
                     <img src="assets/images/speakers/mfreyeso.png" alt="speaker img">
                     <div class="mu-single-speakers-info">
                       <h3>Mario Reyes Ojeda</h3>
@@ -323,7 +323,25 @@
                   </div>
                 </div>
                 <!-- End single speaker -->
+                 <!-- Start single speaker -->
+                 <div class="mu-single-speakers">
+                    <div class="col-md-3 col-xs-6">
+                      <img src="assets/images/speakers/jorge_martinez.jpg" alt="speaker img">
+                      <div class="mu-single-speakers-info">
+                        <h3>Jorge Martinez Gómez</h3>
+                        <p>Geospatial Developer - Humanitarian OpenStreetMap Team</p>
+                        <ul class="mu-single-speakers-social">
+                          <li><a href="https://www.facebook.com/mario.reyesojeda" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                          <li><a href="https://twitter.com/mfreyeso" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="https://www.linkedin.com/in/mario-reyes-ojeda-8b158762/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                          <li><a href="https://github.com/mfreyeso" target="_blank"><i class="fa fa-github-alt"></i></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End single speaker -->
               </div>
+              
               <!-- End Speakers Content -->
     
             </div>
@@ -418,33 +436,69 @@
                     <div role="tabpanel" class="tab-pane fade mu-event-timeline in active" id="first-day">
                       <ul>
                         <li>
-                          <div class="mu-single-event">
+                          <div class="mu-single-event" data-toggle="collapse" href="#description-register">
                             <p class="mu-event-time">08:00 AM</p>
                             <h3>Registro</h3>
+
+                            <div class="collapse" id="description-register">
+                                <div class="description-talk">
+                                  <p>En el caso de que recibas un correo con la confirmación del cupo, te 
+                                    esperamos muy puntual para iniciar con el registro este gran evento!
+                                  </p>
+                                </div>
+                            </div>
                           </div>
                         </li>
                         <li>
-                          <div class="mu-single-event">
+                          <div class="mu-single-event" data-toggle="collapse" href="#description-welcome">
                             <img src="assets/images/colaboradores/carolina-gomez.jpg" alt="event speaker">
                             <p class="mu-event-time">08:30 AM</p>
                             <h3>Bienvenida y charla de apertura</h3>
                             <span>Por Carolina Gómez</span>
+
+                            <div class="collapse" id="description-welcome">
+                                <div class="description-talk">
+                                  <p>En este espacio presentaremos la dinámica y reglas del evento, explicamos en 
+                                    pocos minutos como va a ser la jornada. Además, presentamos a cada uno de 
+                                    nuestros colaboradores que nos van a ayudar durante todo el día
+                                    en este fabuloso evento. </p>
+                                </div>
+                            </div>
                           </div>
                         </li>
                         <li>
-                          <div class="mu-single-event">
+                          <div class="mu-single-event" data-toggle="collapse" href="#description-1">
                             <img src="assets/images/speakers/julian.jpg" alt="event speaker">
                             <p class="mu-event-time">08:35 AM</p>
                             <h3>¿Estoy escribiendo bien mi código en Python?</h3>
                             <span>Por Julián Amaya</span>
-                          </div>
+
+                            <div class="collapse" id="description-1">
+                                <div class="description-talk">
+                                  <p>Muchos llegamos a Python desde otros lenguajes, para algunos es el primer lenguaje,
+                                  ¿Cómo saber si nuestro código es bueno?.</p> 
+                                  <p>En esta charla compartiré mi experiencia usando Python por 10 años y discutiremos las mejores prácticas
+                                  para escribir código que cumpla el zen de Python.</p>
+                                </div>
+                            </div>
+                          </div>                          
                         </li>
                         <li>
-                          <div class="mu-single-event">
-                            <img src="assets/images/speakers/Daniel_Steven_Valencia_Hernandez.jpg" alt="event speaker">
+                          <div class="mu-single-event" data-toggle="collapse" href="#description-2">
+                            <img src="assets/images/speakers/cristian.png" alt="event speaker">
                             <p class="mu-event-time">09:15 AM</p>
-                            <h3>Microservicios en el mundo real</h3>
-                            <span>Por Daniel Stiven Valencia</span>
+                            <h3>Mario Bros meets reinforcement learning</h3>
+                            <span>Por Cristian David Vargas</span>
+
+                            <div class="collapse" id="description-2">
+                                <div class="description-talk">
+                                  <p>¿Quieres conocer los fundamentos detrás de la tecnología que permitió vencer al campeón mundial de go?, 
+                                    ¿Te gustaría comprender como se le puede enseñar a una maquina a solucionar problemas sin tu 
+                                    intervención directa? </p>
+                                  <p>De ser así esta es una charla que no te puedes perder! Mario Bros ya no 
+                                    te necesitara para terminar los niveles.</p> 
+                                </div>                              
+                            </div>
                           </div>
                         </li>
                         <li>
@@ -454,29 +508,54 @@
                           </div>
                         </li>
                         <li>
-                          <div class="mu-single-event">
+                          <div class="mu-single-event" data-toggle="collapse" href="#description-3">
                             <img src="assets/images/speakers/Karobot2019.jpg" alt="event speaker">
                             <p class="mu-event-time">10:10 AM</p>
                             <h3>¿Dónde están las mujeres más pro del momento?</h3>
                             <span>Por Karolina Ladino Puerto - Karobot</span>
+
+                            <div class="collapse" id="description-3">
+                                <div class="description-talk">
+                                    <p>Vamos a conocer varias mujeres que la están rompiéndola en sus campos, sígamoslas, hagamósle 
+                                    barra y motivémonos. Entendamos qué lenguajes usan, cómo aplican sus conocimientos, en qué 
+                                    trabajan y cómo Python es su común denominador. </p>
+                                </div>                              
+                            </div>
                           </div>
                         </li>
 
                         <li>
-                          <div class="mu-single-event">
+                          <div class="mu-single-event" data-toggle="collapse" href="#description-4">
                             <img src="assets/images/speakers/laica.png" alt="event speaker">
                             <p class="mu-event-time">10:50 AM</p>
                             <h3>MicroPython como lenguaje para dispositivos del IoT</h3>
                             <span>Por José Luis Laica Cornejo</span>
+
+                            <div class="collapse" id="description-4">
+                              <div class="description-talk">
+                                <p>La introducción de dispositivos IoT en nuestras vidas cotidianas recién inicia y es 
+                                  interesante saber hasta dónde puede llegar, por lo cual conocer las ventajas de la 
+                                  sintaxis de micropython para microcontroladores brinda a la comunidad nuevas oportunidades
+                                  para el desarrollo de nuevas aplicaciones.</p>
+                              </div>
+                            </div>
                           </div>
                         </li>
 
                         <li>
-                          <div class="mu-single-event">
+                          <div class="mu-single-event" data-toggle="collapse" href="#description-5">
                             <img src="assets/images/speakers/jonathan-sandoval-cardona.jpg" alt="event speaker">
                             <p class="mu-event-time">11:30 AM</p>
                             <h3>Programación web con asyncio y aiohttp</h3>
                             <span>Por Jonathan Sandoval Cardona</span>
+
+                            <div class="collapse" id="description-5">
+                              <div class="description-talk">
+                                <p>En la charla conoceremos aiohttp, un servidor y framework web asíncrono para 
+                                  Python usando asyncio. Veremos como crear una aplicación sencilla pero funcional, 
+                                  y conceptos básicos como vistas, corrutinas, rutas, plantillas, entre otros.</p>
+                              </div>                              
+                            </div>
                           </div>
                         </li>
 
@@ -490,28 +569,56 @@
                     </div>
                     <div role="tabpanel" class="tab-pane fade mu-event-timeline" id="second-day">
                       <ul>
-                        <li>
-                          <div class="mu-single-event">
-                            <img src="assets/images/speakers/cristian.png" alt="event speaker">
+                        <li>                          
+                          <div class="mu-single-event" data-toggle="collapse" href="#description-6">
+                            <img src="assets/images/speakers/Daniel_Steven_Valencia_Hernandez.jpg" alt="event speaker">
                             <p class="mu-event-time">01:20 PM</p>
-                            <h3>Mario Bros meets reinforcement learning</h3>
-                            <span>Por Cristian David Vargas</span>
+                            <h3>Microservicios en el mundo real</h3>
+                            <span>Por Daniel Stiven Valencia</span>
+
+                            <div class="collapse" id="description-6">
+                                <div class="description-talk">
+                                  <p>Rasgos generales de la definición e implementación en la industria productiva 
+                                    de la arquitectura de software orientada a microservicios, haciendo énfasis en 
+                                    su evolución y la razón de su popularidad, presentando las ventajas y 
+                                    desventajas, evidenciando estas, en una implementación real.</p>
+                                </div>
+                            </div>
                           </div>
                         </li>
                         <li>
-                          <div class="mu-single-event">
+                          <div class="mu-single-event" data-toggle="collapse" href="#description-7">
                             <img src="assets/images/speakers/cardozo.jpg" alt="event speaker">
                             <p class="mu-event-time">02:00 PM</p>
                             <h3>La historia de Kiwibot y aceleradores</h3>
                             <span>Por David Cardozo</span>
+
+                            <div class="collapse" id="description-7">
+                              <div class="description-talk">
+                                <p>Deep learning is a new exciting field of machine learning that is 
+                                  helping to build the future, at Kiwi Campus we are levering this new 
+                                  field into creating the next generation of robots and embedded devices 
+                                  that will make the future of next door delivery. We want to talk about 
+                                  our development cycles and how have we used python for deployment of our 
+                                  models and our data pipeline characteristics.</p>
+                              </div>
+                            </div>
                           </div>
                         </li>
                         <li>
-                          <div class="mu-single-event">
+                          <div class="mu-single-event" data-toggle="collapse" href="#description-8">
                             <img src="assets/images/speakers/mfreyeso.png" alt="event speaker">
                             <p class="mu-event-time">02:40 PM</p>
                             <h3>3V: A design approach for build data pipelines with Python</h3>
                             <span>Por Mario Reyes Ojeda</span>
+
+                            <div class="collapse" id="description-8">
+                              <div class="description-talk">
+                                <p>"3V: A design approach for build data pipelines with Python" es una perspectiva de diseño que 
+                                  considera la velocidad, el volumen y el valor de los datos como características directrices 
+                                  para diseñar pipelines capaces de soportar el flujo, crecimiento y uso. </p>
+                              </div>
+                            </div>
                           </div>
                         </li>
                         <li>
@@ -521,26 +628,54 @@
                           </div>
                         </li>
                         <li>
-                          <div class="mu-single-event">
+                          <div class="mu-single-event" data-toggle="collapse" href="#description-9">
                             <img src="assets/images/speakers/john_roa.jpg" alt="event speaker">
                             <p class="mu-event-time">03:35 PM</p>
                             <h3>Python Colombia: Pasado, Presente y Futuro</h3>
                             <span>Por Jhon Roa</span>
+
+                            <div class="collapse" id="description-9">
+                                <div class="description-talk">
+                                  <p>Python Colombia ha tenido grandes retos en el pasado, actualmente está creciendo a pasos 
+                                    agigantados y tenemos ambiciosas metas para el futuro. La presentación actual permite entender 
+                                    como va la comunidad Python Colombia actualmente. Esta charla pretende que los asistentes 
+                                    tengan claro en gran esfuerzo de las diferentes iniciativas que se llevan a cabo en todo el 
+                                    país alrededor de la comunidad de Python. </p>
+                                </div>
+                              </div>
                           </div>
                         </li>
-                        <!--<li>
-                          <div class="mu-single-event">
-                            <img src="assets/images/speaker-3.jpg" alt="event speaker">
-                            <p class="mu-event-time">04:15 PM</p>
-                            <h3>Charla 7</h3>
-                            <span>Por NN</span>
-                          </div>
-                        </li>-->
                         <li>
-                          <div class="mu-single-event">
+                          <div class="mu-single-event" data-toggle="collapse" href="#description-10">
+                            <img src="assets/images/speakers/jorge_martinez.jpg" alt="event speaker">
                             <p class="mu-event-time">04:15 PM</p>
-                            <!--<p class="mu-event-time">05:00 PM</p>-->
+                            <h3>Demystifying oauth2 authorization framework</h3>
+                            <span>Por Jorge Martinez</span>
+
+                            <div class="collapse" id="description-10">
+                              <div class="description-talk">
+                                <p>Oauth2 is enjoying interest as a result of popularity in common web applications, by 
+                                  providing actions on users behalf. However, the source of the methodology remains poorly 
+                                  understood. With this talk, I aim to bridge the gap by providing an analysis involved of 
+                                  this protocol, using simple examples.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="mu-single-event" data-toggle="collapse" href="#description-goodbye">
+                            <img src="assets/images/colaboradores/milton.jpg" alt="event speaker">
+                            <p class="mu-event-time">05:00 PM</p>
                             <h3>Clausura</h3>
+                            <span>Por Milton Lenis</span>
+
+                            <div class="collapse" id="description-goodbye">
+                                <div class="description-talk">
+                                  <p>Finalmente realizaremos una charla de despedida y una tormenta de ideas y sugerencias 
+                                    para así poder mejorar nuestra próxima experiencia. Además  de esto conoceremos nuestros
+                                    patrocinadores y cual es su gran labor!</p>
+                                </div>
+                            </div>
                           </div>
                         </li>
                       </ul>

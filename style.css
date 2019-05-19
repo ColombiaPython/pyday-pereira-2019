@@ -644,6 +644,7 @@ button:focus {
   width: 400px;
   padding: 15px;
   text-align: left;
+  cursor: pointer;
 }
 
 .mu-event-timeline ul li:nth-child(2n) .mu-single-event {
@@ -701,6 +702,12 @@ button:focus {
 
 .mu-event-timeline ul li .mu-single-event span {
   font-size: 12px;
+}
+
+.description-talk{
+  text-align: justify;
+  margin-top: 25px;
+  font-size: 14px;
 }
 
 
